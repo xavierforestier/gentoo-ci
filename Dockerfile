@@ -4,7 +4,7 @@ FROM gentoo/stage3:amd64-nomultilib-openrc as builder
 COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 
 RUN echo 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"' >>/etc/portage/make.conf && \
-    echo 'LINGUAS="en"' >>/etc/portage/make.conf && \
+    echo -e 'LINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && \
     emerge -tuvDN @world && \
     emerge -C sys-apps/man-pages virtual/man && \
     rm -R /usr/share/{man,doc}/ && \
