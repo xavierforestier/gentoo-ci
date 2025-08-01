@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: "antonfischl1980/gentoo-ci"
+  IMAGE_NAME: "xavierforestier/gentoo-ci"
 
 jobs:
   build-and-push-image:
@@ -25,20 +25,20 @@ jobs:
           repository: ${{ env.IMAGE_NAME }}
 
       - name: Log in to the Container registry
-        uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20
+        uses: docker/login-action@v3
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
+          username: ${{ vars.DOCKER_USER }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81
+        uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@2cdde995de11925a030ce8070c3d77a52ffcf1c0
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
@@ -53,4 +53,4 @@ jobs:
           keep-at-least: 3
           timestamp-to-use: created_at
           account-type: personal
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
