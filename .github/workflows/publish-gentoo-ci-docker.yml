@@ -53,4 +53,4 @@ jobs:
           keep-at-least: 3
           timestamp-to-use: created_at
           account-type: personal
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
