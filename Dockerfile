@@ -10,7 +10,7 @@ RUN echo 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"' >>/etc/portage/
     rm -R /usr/share/{man,doc}/ && \
     emerge -tv --depclean && \
     echo -e 'dev-lang/python bluetooth' >>/etc/portage/package.use/dev-lang-python.use && \
-	emerge --jobs -q python  && \
+	emerge --jobs -q python:3.13  && \
     find /usr/share/locale/ -maxdepth 1 -mindepth 1 \! -name "en*" -print0|xargs -r0 rm -Rv && \
     FEATURES='-usersandbox' emerge --jobs -q \
 	app-admin/sudo \
@@ -20,7 +20,7 @@ RUN echo 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"' >>/etc/portage/
 	dev-util/pkgcheck \
 	dev-util/shellcheck-bin \
 	dev-vcs/git \
- 	dev-libs/boost virtual/fortran dev-lang/lua	x11-base/xorg-proto \
+ 	dev-libs/boost virtual/fortran dev-lang/lua	x11-base/xorg-proto net-libs/nodejs \
 	&& \
     emerge -tv --depclean && \
     rm -rf /var/cache/distfiles/* /var/log/*.log && \
