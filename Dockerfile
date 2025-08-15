@@ -5,11 +5,12 @@ COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 
 RUN echo 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"' >>/etc/portage/make.conf && \
     echo -e 'LINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && \
-    echo -e 'dev-lang/python bluetooth' >>/etc/portage/package.use/dev-lang-python.use && \
     emerge -tuvDN @world && \
     emerge -C sys-apps/man-pages virtual/man && \
     rm -R /usr/share/{man,doc}/ && \
     emerge -tv --depclean && \
+    echo -e 'dev-lang/python bluetooth' >>/etc/portage/package.use/dev-lang-python.use && \
+	emerge --jobs python  && \
     find /usr/share/locale/ -maxdepth 1 -mindepth 1 \! -name "en*" -print0|xargs -r0 rm -Rv && \
     FEATURES='-usersandbox' emerge --jobs \
 	app-admin/sudo \
