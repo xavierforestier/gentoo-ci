@@ -1,9 +1,10 @@
-# Parallel processing
-ENV JOB_COUNT=16
+
 # Build a gentoo stage3 / amd64
 FROM gentoo/portage:latest as portage
 FROM gentoo/stage3:amd64-nomultilib-openrc as builder
 COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
+# Parallel processing
+ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && emerge -tuqDN --jobs=${JOB_COUNT} @world &&
 # Cleanup : drop man-pages, an exotic locales
