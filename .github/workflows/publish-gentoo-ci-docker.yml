@@ -3,7 +3,7 @@
 name: Create and publish a Docker image for CI
 
 on:
-  workflow_call:
+  workflow_dispatch:
   schedule:
     - cron: "3 4 * * 6" 
 env:
