@@ -5,7 +5,7 @@ FROM gentoo/stage3:amd64-nomultilib-openrc AS builder
 COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
-RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use && echo 'net-libs/nodejs npm' > /etc/portage/net-libs-nodejs.use && echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && emerge -tuqDN --jobs=${JOB_COUNT} @world
+RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use && echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use && echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && emerge -tuqDN --jobs=${JOB_COUNT} @world
 # Specific to home-assistant CI/CD : rebuild python with bluetooth
 RUN echo -e 'dev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use && emerge --jobs=${JOB_COUNT} -q python:3.13
 # Specific to home-assistant CI/CD : prebuild some packages / tools
