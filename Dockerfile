@@ -9,7 +9,7 @@ RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use &
 # Specific to home-assistant CI/CD : rebuild python with bluetooth
 RUN echo -e 'dev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use && emerge --jobs=${JOB_COUNT} -q python:3.13
 # Specific to home-assistant CI/CD : prebuild some packages / tools
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust virtual/imagemagick-tools
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust virtual/imagemagick-tools virtual/lapack virtual/cblas
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
