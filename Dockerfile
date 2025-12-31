@@ -5,11 +5,15 @@ FROM gentoo/stage3:amd64-nomultilib-openrc AS builder
 COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
-RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use && echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use && echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf && emerge -tuqDN --jobs=${JOB_COUNT} @world
+RUN echo 'sys-apps/file -seccomp' > /etc/portage/package.use/sys-apps-file.use
+RUN echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use 
+RUN echo 'virtual/imagemagick-tools jpeg tiff' > /etc/portage/package.use/virtual-imagemagick-tools.use 
+RUN echo 'dev-python/pillow webp' > /etc/portage/package.use/dev-python-pillow.use 
+run echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
 # Specific to home-assistant CI/CD : rebuild python with bluetooth
-RUN echo -e 'dev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use && emerge --jobs=${JOB_COUNT} -q python:3.13
-# Specific to home-assistant CI/CD : prebuild some packages / tools
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust virtual/imagemagick-tools virtual/lapack virtual/cblas
+RUN echo -e 'dev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-python.use
+RUN emerge -tuqDN --jobs=${JOB_COUNT} @world
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q python:3.13 app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev dev-lang/rust-bin
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
