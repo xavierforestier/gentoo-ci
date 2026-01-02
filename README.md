@@ -3,3 +3,4 @@
 
 This Docker image is for personal CI and testing purposes, mostly for my Icinga Overlay at https://github.com/antonfischl1980/icinga
 
+## Provided packages
