@@ -1,3 +1,9 @@
+# Gentoo-CI Dockerfile
+[![Create and publish a Docker image for CI](https://github.com/xavierforestier/gentoo-ci/actions/workflows/publish-gentoo-ci-docker.yml/badge.svg)](https://github.com/xavierforestier/gentoo-ci/actions/workflows/publish-gentoo-ci-docker.yml)
+
+This Docker image is for personal CI and testing purposes, mostly for my Icinga Overlay at https://github.com/antonfischl1980/icinga
+
+## Provided packages
 * acct-group/audio: System group: audio 
    * 0-r3 
 * acct-group/cdrom: System group: cdrom 
