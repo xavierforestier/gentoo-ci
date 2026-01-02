@@ -16,7 +16,7 @@ jobs:
       run: |
         git config --global --add safe.directory /__w/gentoo-ci/gentoo-ci
         git fetch
-        git switch master
+        git switch main
         eix-update
         head README.md -n `grep '## Provided packages' README.md -n | cut -d: -f1` > README.md
         EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
