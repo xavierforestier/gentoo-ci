@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   workflow_call:
 jobs:
-  emerge:
+  readme:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -14,10 +14,6 @@ jobs:
       uses: actions/checkout@v6
     - name: Update README
       run: |
-        pwd
-        ls *        
-        git config --local user.name "xavier.forestier"
-        git config --local user.email "{ID}+{username}@users.noreply.github.com"
         git fetch
         git switch master
         eix-update
