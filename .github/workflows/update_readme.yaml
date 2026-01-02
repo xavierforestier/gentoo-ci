@@ -1,0 +1,26 @@
+name: Update README.md
+on: 
+  workflow_dispatch:
+  workflow_call:
+jobs:
+  emerge:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci:main
+      options: --privileged
+    steps:
+    # synchronys my own git
+    - name: Checkout code
+      uses: actions/checkout@v6
+    - name: Update README
+      run: |
+        git config --local user.name "xavier.forestier"
+        git config --local user.email "{ID}+{username}@users.noreply.github.com"
+        git fetch
+        git switch master
+        eix-update
+        head README.md -n `grep '## Provided packages' README.md -n | cut -d: -f1` > README.md
+        EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
+        git add README.md
+        git commit -m "[CI]Update status" || true
+        git push
