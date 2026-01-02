@@ -20,6 +20,7 @@ jobs:
         emerge -q eix
         eix-update
         head README.md -n `grep '## Provided packages' README.md -n | cut -d: -f1` > README.md
+        cat README.md
         EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
