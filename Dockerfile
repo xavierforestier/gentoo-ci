@@ -15,8 +15,8 @@ RUN echo -e 'dev-lang/python bluetooth' > /etc/portage/package.use/dev-lang-pyth
 # Last sync / update
 COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
 RUN FEATURES='-usersandbox' emerge dev-vcs/git -q 
-RUN emerge --sync 
-RUN emerge -tNDuq --jobs=${JOB_COUNT} @world
+RUN FEATURES='-usersandbox' emerge --sync
+RUN FEATURES='-usersandbox' emerge -tNDuq --jobs=${JOB_COUNT} @world
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} --jobs-tmpdir-require-free-gb=0 -q app-admin/sudo app-eselect/eselect-repository app-misc/jq app-portage/gentoolkit dev-util/pkgcheck dev-util/shellcheck-bin dev-vcs/git \
     dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs app-eselect/eselect-rust dev-lang/rust-bin sci-ml/transformers \ 
     virtual/imagemagick-tools virtual/lapack virtual/cblas virtual/blas virtual/ttf-fonts virtual/libusb virtual/cron virtual/libudev sci-ml/caffe2 sci-ml/onnyx media-video/ffmpeg  
