@@ -7,12 +7,12 @@ ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
 COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q dev-vcs/git portage app-portage/gentoolkit app-admin/sudo
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository portage app-portage/gentoolkit app-admin/sudo
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
-#COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
-#RUN rm -rf /var/db/repos/gentoo && cd /var/db/repos/ && git clone https://github.com/gentoo-mirror/gentoo.git
+RUN eselect repository remove -f gentoo 
+RUN eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo
 RUN emerge --sync 
 RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 # Cleanup : drop man-pages, an exotic locales
