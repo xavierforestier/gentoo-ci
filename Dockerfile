@@ -7,12 +7,12 @@ ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
 COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
-RUN FEATURES='-usersandbox' emerge -tNDuq --jobs=${JOB_COUNT} @world
+#RUN FEATURES='-usersandbox' emerge -tNDuq --jobs=${JOB_COUNT} @world
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
 COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
-RUN rm -rf /var/db/repos/gentoo && emerge --sync && emerge -NDuq --jobs=${JOB_COUNT} @world
+RUN rm -rf /var/db/repos/gentoo/* && emerge --sync && emerge -NDuq --jobs=${JOB_COUNT} @world
 # Cleanup : drop man-pages, an exotic locales
 RUN emerge -C sys-apps/man-pages virtual/man && rm -R /usr/share/{man,doc}/ && find /usr/share/locale/ -maxdepth 1 -mindepth 1 \! -name "en*" -print0|xargs -r0 rm -Rv && emerge -t --depclean
 RUN rm -rf /var/cache/distfiles/* /var/log/*.log || true 
