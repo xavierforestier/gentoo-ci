@@ -12,4 +12,6 @@ jobs:
     - name: df
       run: |
         df
-        find /
+        du -sh /*
+        du -sh /var/*
+        
