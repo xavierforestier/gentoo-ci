@@ -11,8 +11,8 @@ RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q dev-vcs/git portage ap
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
-COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
-RUN rm -rf /var/db/repos/gentoo && cd /var/db/repos/ && git clone https://github.com/gentoo-mirror/gentoo.git
+#COPY repos-gentoo.conf /etc/portage/repos.conf/gentoo.conf
+#RUN rm -rf /var/db/repos/gentoo && cd /var/db/repos/ && git clone https://github.com/gentoo-mirror/gentoo.git
 RUN emerge --sync 
 RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 # Cleanup : drop man-pages, an exotic locales
