@@ -11,6 +11,7 @@ RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-re
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
 RUN eselect repository remove -f gentoo 
+RUN rm -rf /var/db/repos/gentoo || true
 RUN eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo
 RUN emerge --sync 
 RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
