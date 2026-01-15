@@ -1,11 +1,3 @@
-# Gentoo-CI Dockerfile
-
-[![Create and publish a Docker image for CI](https://github.com/xavierforestier/gentoo-ci/actions/workflows/publish-gentoo-ci-docker.yml/badge.svg)](https://github.com/xavierforestier/gentoo-ci/actions/workflows/publish-gentoo-ci-docker.yml)
-
-Based on https://github.com/antonfischl1980/icinga thanks
-
-## Provided packages
-
 * acct-group/audio: System group: audio 
    * 0-r3 
 * acct-group/cdrom: System group: cdrom 
@@ -216,7 +208,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libpcre2: Perl-compatible regular expression library 
    * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
-   * 4.21.0 -static-libs -test -verify-sig
+   * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
    * 1.3 -doc -static-libs
 * dev-libs/libxml2: XML C parser and toolkit 
@@ -460,7 +452,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/less: Excellent text file viewer 
    * 685 pcre -test
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
-   * 3.9-r2 
+   * 3.10 
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
