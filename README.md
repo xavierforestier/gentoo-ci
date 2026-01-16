@@ -5,7 +5,6 @@
 Based on https://github.com/antonfischl1980/icinga thanks
 
 ## Provided packages
-
 * acct-group/audio: System group: audio 
    * 0-r3 
 * acct-group/cdrom: System group: cdrom 
@@ -338,7 +337,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test
 * dev-python/librt: Mypyc runtime library 
-   * 0.7.7 -debug -test -verify-provenance
+   * 0.7.8 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.0.2 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
@@ -368,7 +367,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 9.2.2 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.1.12.15 -test -verify-provenance
+   * 2026.1.14.14 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
@@ -458,7 +457,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 685 pcre -test
+   * 685 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/net-tools: Standard Linux networking tools 
@@ -474,7 +473,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.14.8-r2 acl nls pam xattr -audit -cracklib -selinux -skey -split-usr -su -systemd -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 256.17 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 259 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
@@ -508,7 +507,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/patch: Utility to apply diffs to files 
    * 2.8-r1 xattr -static -test -verify-sig
 * sys-fs/e2fsprogs: Standard EXT2/EXT3/EXT4 filesystem utilities 
-   * 1.47.3-r1 nls tools -archive -cron -fuse -static-libs -test
+   * 1.47.3-r1 nls tools -archive -cron -fuse -static-libs -test -verify-sig
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
    * 35 
 * sys-kernel/linux-headers: Linux system headers 
