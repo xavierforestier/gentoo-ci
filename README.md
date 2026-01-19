@@ -182,7 +182,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.10.0 -test -test-full -verify-sig
+   * 1.10.1 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -201,7 +201,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.7.3 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
-   * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs
+   * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -223,7 +223,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
-   * 1.3.1 -static-libs
+   * 1.3.1 -static-libs -verify-sig
 * dev-libs/mpdecimal: Correctly-rounded arbitrary precision decimal floating point arithmetic 
    * 4.0.1 -cxx -test
 * dev-libs/mpfr: Library for multiple-precision floating-point computations with exact rounding 
@@ -231,7 +231,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/nettle: Low-level cryptographic library 
    * 3.10.2 asm gmp -doc -static-libs -verify-sig
 * dev-libs/npth: New GNU Portable Threads Library 
-   * 1.8 -test
+   * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
    * 3.5.4 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
@@ -465,7 +465,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.75 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.76 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
