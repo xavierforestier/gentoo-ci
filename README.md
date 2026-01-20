@@ -110,7 +110,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 8.7 ncurses nls spell unicode -debug -justify -magic -minimal
+   * 8.7 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -393,7 +393,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
    * 1.8.11-r1 -conntrack -netlink -nftables -pcap -static-libs -test
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
-   * 3.8.11 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -test -test-full -tools -verify-sig -zstd
+   * 3.8.11 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmnl: Minimalistic netlink library 
    * 1.0.5 -examples -verify-sig
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
@@ -433,7 +433,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
    * 2.18-r1 -build -split-usr
 * sys-apps/coreutils: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...) 
-   * 9.9-r1 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
+   * 9.9-r11 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
@@ -471,7 +471,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/sed: Super-useful stream editor 
    * 4.9-r1 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
-   * 4.14.8-r2 acl nls pam xattr -audit -cracklib -selinux -skey -split-usr -su -systemd -verify-sig
+   * 4.19.2 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
    * 259-r2 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
@@ -485,7 +485,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/pambase: PAM base configuration files 
    * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
-   * 2.0.3-r1 
+   * 2.0.3-r1 -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.45.1 cet nls plugins zstd -debuginfod -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
