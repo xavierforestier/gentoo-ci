@@ -96,7 +96,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
    * 5.8.2 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
-   * 1.5.7-r1 lzma zlib -lz4 -static-libs -test
+   * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.16-r1 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
@@ -193,7 +193,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
    * 3.13.11 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
-   * 3.14.0_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.2 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -413,7 +413,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.0 embedded ipv6 udev -debug -privsep
 * net-misc/iputils: Network monitoring tools including ping and ping6 
-   * 20250605-r1 arping filecaps nls -caps -clockdiff -doc -idn -test -tracepath
+   * 20250605-r1 arping filecaps nls -caps -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.13 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
@@ -457,7 +457,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 685 pcre -test -verify-sig
+   * 691 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/net-tools: Standard Linux networking tools 
