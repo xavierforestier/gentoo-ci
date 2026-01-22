@@ -349,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
-   * 25.0 -test
+   * 26.0 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.0.3 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
@@ -373,7 +373,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.6.3 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/wheel: A built-package format for Python 
-   * 0.45.1 -test
+   * 0.46.2 -test -verify-provenance
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
@@ -405,11 +405,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/nghttp2: HTTP/2 C Library 
    * 1.68.0 -debug -hpack-tools -jemalloc -systemd -test -utils -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
-   * 1.14.0 
+   * 1.15.0 
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.17.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.18.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.0 embedded ipv6 udev -debug -privsep
 * net-misc/iputils: Network monitoring tools including ping and ping6 
@@ -465,7 +465,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.76 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.76-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
@@ -519,7 +519,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.77 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
-   * 2.6.0-r3 -debug -python -static-libs -test
+   * 2.6.0-r3 -debug -python -static-libs -test -verify-sig
 * sys-libs/libxcrypt: Extended crypt library for descrypt, md5crypt, bcrypt, and others 
    * 4.4.38 compat system -headers-only -static-libs -test
 * sys-libs/ncurses: Console display library 
