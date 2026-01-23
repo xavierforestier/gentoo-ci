@@ -237,7 +237,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
-   * 0.8.3-r1 
+   * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
    * 2.190.0 -kerberos -test
 * dev-perl/Capture-Tiny: Capture STDOUT and STDERR from Perl, XS, or external programs 
@@ -326,8 +326,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 3.11 
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
-* dev-python/jaraco-collections: Models and classes to supplement the stdlib collections module 
-   * 5.2.1 -test
 * dev-python/jaraco-context: Context managers by jaraco 
    * 6.1.0 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
@@ -363,7 +361,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.32.5 test-rust -socks5 -test
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 80.9.0-r1 -test
+   * 80.10.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 9.2.2 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -624,4 +622,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
-Found 308 matches
+Found 307 matches
