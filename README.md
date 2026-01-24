@@ -136,7 +136,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.12 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.6.11 -test
+   * 0.7.1 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 1.15-r1 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
@@ -371,7 +371,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.6.3 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/wheel: A built-package format for Python 
-   * 0.46.2 -test -verify-provenance
+   * 0.46.3 -test -verify-provenance
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
@@ -463,7 +463,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.76-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.77 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
@@ -519,7 +519,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
    * 2.6.0-r3 -debug -python -static-libs -test -verify-sig
 * sys-libs/libxcrypt: Extended crypt library for descrypt, md5crypt, bcrypt, and others 
-   * 4.4.38 compat system -headers-only -static-libs -test
+   * 4.4.38-r1 compat system -headers-only -static-libs -test
 * sys-libs/ncurses: Console display library 
    * 6.5_p20251220 cxx tinfo -ada -debug -doc -gpm -minimal -profile -split-usr -stack-realign -static-libs -test -trace -verify-sig
 * sys-libs/pam: Linux-PAM (Pluggable Authentication Modules) 
