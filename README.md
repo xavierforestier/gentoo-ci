@@ -188,7 +188,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
 * dev-db/sqlite: SQL database engine 
-   * 3.51.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -tools
+   * 3.51.2 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -tools
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
