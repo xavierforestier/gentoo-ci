@@ -110,7 +110,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 8.7 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+   * 8.7-r1 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -423,7 +423,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
    * 0.231.100-r1 
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
-   * 20250806 -test
+   * 20260125 -test
 * sys-apps/acl: Access control list utilities, libraries, and headers 
    * 2.3.2-r2 nls -static-libs
 * sys-apps/attr: Extended attributes tools 
@@ -431,7 +431,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
    * 2.18-r1 -build -split-usr
 * sys-apps/coreutils: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...) 
-   * 9.9-r11 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
+   * 9.9-r12 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
@@ -513,7 +513,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.42-r4 cet multiarch ssp static-libs -audit -caps -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.42-r5 cet multiarch ssp static-libs -audit -caps -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.77 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
@@ -531,7 +531,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.1-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
-   * 4.0.5-r3 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test
+   * 4.0.5-r4 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test
 * sys-process/psmisc: A set of tools that use the proc filesystem 
    * 23.7 nls -X -apparmor -selinux -test
 * virtual/acl: Virtual for acl support (sys/acl.h) 
