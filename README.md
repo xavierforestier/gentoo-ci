@@ -361,7 +361,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.32.5 test-rust -socks5 -test
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 80.10.1 -test
+   * 80.10.2 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 9.2.2 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
