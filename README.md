@@ -98,7 +98,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.16-r1 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.17 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -233,7 +233,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.5.4 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.5.5 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
@@ -349,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/packaging: Core utilities for Python packages 
    * 26.0 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
-   * 1.0.3 -verify-provenance
+   * 1.0.4 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
    * 4.5.1 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
@@ -441,7 +441,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/gawk: GNU awk pattern-matching language 
    * 5.3.2 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
-   * 1.7.4 -test
+   * 1.7.5 -test
 * sys-apps/grep: GNU regular expression matcher 
    * 3.12 egrep-fgrep nls pcre -static -test-full -verify-sig
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
@@ -523,7 +523,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/ncurses: Console display library 
    * 6.5_p20251220 cxx tinfo -ada -debug -doc -gpm -minimal -profile -split-usr -stack-realign -static-libs -test -trace -verify-sig
 * sys-libs/pam: Linux-PAM (Pluggable Authentication Modules) 
-   * 1.7.1-r2 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
+   * 1.7.2 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
