@@ -207,7 +207,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
    * 3.5.2 exec-static-trampoline -debug -pax-kernel -static-libs -test
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
-   * 1.11.2-r1 asm getentropy -doc -static-libs -verify-sig
+   * 1.12.0-r1 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.58 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
@@ -355,7 +355,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test
 * dev-python/psutil: Retrieve information on running processes and system utilization 
-   * 7.2.1 -debug -test
+   * 7.2.2 -debug -test
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
