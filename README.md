@@ -199,7 +199,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.7.3 unicode -examples -static-libs -test
+   * 2.7.4 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
@@ -311,7 +311,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.5 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 25.3 test-rust -test
+   * 26.0 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 3.12.0 -test
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
