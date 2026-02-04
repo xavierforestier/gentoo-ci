@@ -98,7 +98,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.17 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.17-r1 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -207,7 +207,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
    * 3.5.2 exec-static-trampoline -debug -pax-kernel -static-libs -test
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
-   * 1.12.0-r1 asm getentropy -doc -static-libs -verify-sig
+   * 1.12.0-r2 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.58 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
@@ -381,7 +381,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.52.0 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -rust -selinux -subversion -test -tk -xinetd
+   * 2.53.0 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -rust -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -531,9 +531,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.1-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
-   * 4.0.5-r4 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test
+   * 4.0.6 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test -verify-sig
 * sys-process/psmisc: A set of tools that use the proc filesystem 
-   * 23.7 nls -X -apparmor -selinux -test
+   * 23.7 nls -X -apparmor -selinux -test -verify-sig
 * virtual/acl: Virtual for acl support (sys/acl.h) 
    * 0-r2 -static-libs
 * virtual/dev-manager: Virtual for the device filesystem manager 
