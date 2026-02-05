@@ -110,7 +110,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 8.7-r1 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+   * 8.7.1 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -192,8 +192,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.13.11 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
-   * 3.14.2 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.13.12 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
+   * 3.14.3 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -431,7 +431,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
    * 2.18-r1 -build -split-usr
 * sys-apps/coreutils: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...) 
-   * 9.9-r12 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
+   * 9.10 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
