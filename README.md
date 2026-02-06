@@ -311,7 +311,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.5 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.0 test-rust -test
+   * 26.0.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 3.12.0 -test
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -411,7 +411,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.0 embedded ipv6 udev -debug -privsep
 * net-misc/iputils: Network monitoring tools including ping and ping6 
-   * 20250605-r1 arping filecaps nls -caps -clockdiff -doc -idn -test -tracepath -verify-sig
+   * 20250605-r3 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.13 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
@@ -441,7 +441,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/gawk: GNU awk pattern-matching language 
    * 5.3.2 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
-   * 1.7.5 -test
+   * 1.7.6 -test
 * sys-apps/grep: GNU regular expression matcher 
    * 3.12 egrep-fgrep nls pcre -static -test-full -verify-sig
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
