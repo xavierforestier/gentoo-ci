@@ -471,11 +471,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.19.3 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 259-r2 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 259-r3 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
-   * 7.2-r4 nls standalone -static
+   * 7.2-r4 nls standalone -static -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
    * 2.41.3 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
@@ -501,7 +501,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/gnuconfig: Updated config.sub and config.guess file from GNU 
    * 20250710 
 * sys-devel/m4: GNU macro processor 
-   * 1.4.20 nls -examples -verify-sig
+   * 1.4.21 nls -examples -verify-sig
 * sys-devel/patch: Utility to apply diffs to files 
    * 2.8-r1 xattr -static -test -verify-sig
 * sys-fs/e2fsprogs: Standard EXT2/EXT3/EXT4 filesystem utilities 
