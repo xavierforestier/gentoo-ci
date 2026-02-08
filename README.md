@@ -361,7 +361,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.32.5 test-rust -socks5 -test
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 80.10.2 -test
+   * 81.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 9.2.2 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -401,9 +401,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
-   * 1.68.0 -debug -hpack-tools -jemalloc -systemd -test -utils -xml
+   * 1.68.0 -debug -hpack-tools -jemalloc -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
-   * 1.15.0 
+   * 1.15.0 -verify-sig
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -471,7 +471,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.19.3 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 259-r3 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 259.1 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
@@ -513,7 +513,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.42-r5 cet multiarch ssp static-libs -audit -caps -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.43 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.77 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
