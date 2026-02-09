@@ -140,7 +140,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 1.15-r1 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
-   * 0.97 openmp qmanifest -static
+   * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
    * 5.3_p9 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
@@ -455,7 +455,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 691 pcre -test -verify-sig
+   * 692 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/net-tools: Standard Linux networking tools 
