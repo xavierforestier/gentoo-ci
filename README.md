@@ -331,7 +331,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
    * 4.4.0 -test
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
-   * 4.0.0 -test
+   * 4.1.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test
 * dev-python/librt: Mypyc runtime library 
