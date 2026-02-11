@@ -331,7 +331,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
    * 4.4.0 -test
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
-   * 4.1.0 -test
+   * 4.2.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test
 * dev-python/librt: Mypyc runtime library 
@@ -391,7 +391,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
    * 1.8.11-r1 -conntrack -netlink -nftables -pcap -static-libs -test
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
-   * 3.8.11 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
+   * 3.8.12 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmnl: Minimalistic netlink library 
    * 1.0.5 -examples -verify-sig
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
