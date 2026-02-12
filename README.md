@@ -417,7 +417,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.2_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
-   * 3.4.1-r1 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
+   * 3.4.1-r2 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
    * 1.25.0-r1 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
