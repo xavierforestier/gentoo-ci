@@ -233,7 +233,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.5.5 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.5.5-r1 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
