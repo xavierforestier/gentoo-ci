@@ -89,6 +89,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.0.8-r5 -static -static-libs -verify-sig
 * app-arch/gzip: Standard GNU compressor 
    * 1.14 -pic -static -verify-sig
+* app-arch/libarchive: Multi-format archive and compression library 
+   * 3.8.5 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
@@ -107,6 +109,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.1.0 
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
+* app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
+   * 1.4.6-r1 nls ssl -debug -static-libs
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
@@ -175,6 +179,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.18.1 -test -verify-sig
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
    * 20250528 
+* dev-build/cmake: Cross platform Make 
+   * 4.2.3 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -198,10 +204,16 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
+* dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
+   * 0.194 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.7.4 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
+* dev-libs/json-c: A JSON implementation in C 
+   * 0.18 -doc -static-libs -test -threads
+* dev-libs/jsoncpp: C++ JSON reader and writer 
+   * 1.9.6-r2 -doc -test
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -218,6 +230,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
    * 1.3 -doc -static-libs
+* dev-libs/libuv: Cross-platform asychronous I/O 
+   * 1.51.0-r1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
    * 2.15.1 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
@@ -335,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test
 * dev-python/librt: Mypyc runtime library 
-   * 0.8.0 -debug -test -verify-provenance
+   * 0.8.1 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.0.2 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
@@ -372,6 +386,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.6.3 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/wheel: A built-package format for Python 
    * 0.46.3 -test -verify-provenance
+* dev-util/debugedit: Create debuginfo and source file distributions 
+   * 5.2-r1 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
@@ -392,6 +408,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.8.11-r1 -conntrack -netlink -nftables -pcap -static-libs -test
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.12 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
+* net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
+   * 1.0.1-r1 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
 * net-libs/libmnl: Minimalistic netlink library 
    * 1.0.5 -examples -verify-sig
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
@@ -463,7 +481,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.77-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.77-r3 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
@@ -485,7 +503,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
    * 2.0.3-r1 -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
-   * 2.46.0 cet nls plugins zstd -debuginfod -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
+   * 2.46.0 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
    * 5.6 native-symlinks
 * sys-devel/bison: A general-purpose (yacc-compatible) parser generator 
@@ -493,7 +511,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/flex: The Fast Lexical Analyzer 
    * 2.6.4-r6 nls -static -test
 * sys-devel/gcc: The GNU Compiler Collection 
-   * 15.2.1_p20251122 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
+   * 15.2.1_p20260214 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
 * sys-devel/gcc-config: Utility to manage compilers 
    * 2.12.2 cc-wrappers native-symlinks
 * sys-devel/gettext: GNU locale utilities 
@@ -529,7 +547,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
    * 2025c nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
-   * 1.3.1-r1 -minizip -static-libs -verify-sig
+   * 1.3.2 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
    * 4.0.6 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test -verify-sig
 * sys-process/psmisc: A set of tools that use the proc filesystem 
@@ -622,4 +640,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
-Found 307 matches
+Found 316 matches
