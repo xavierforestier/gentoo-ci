@@ -547,7 +547,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
    * 2025c nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
-   * 1.3.2 -minizip -static-libs -verify-sig
+   * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
    * 4.0.6 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test -verify-sig
 * sys-process/psmisc: A set of tools that use the proc filesystem 
