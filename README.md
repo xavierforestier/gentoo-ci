@@ -443,7 +443,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
    * 20260125 -test
 * sys-apps/acl: Access control list utilities, libraries, and headers 
-   * 2.3.2-r2 nls -static-libs
+   * 2.3.2-r3 nls -static-libs
 * sys-apps/attr: Extended attributes tools 
    * 2.5.2-r1 nls -debug -static-libs
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
