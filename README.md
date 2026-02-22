@@ -62,7 +62,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
    * 1.4.31 -doc -emacs -vim-syntax
 * app-admin/metalog: Highly configurable replacement for syslogd/klogd 
-   * 20260105 unicode zlib
+   * 20260221 unicode zlib
 * app-admin/perl-cleaner: User land tool for cleaning up old perl installs 
    * 2.31-r2 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
@@ -405,7 +405,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-dns/libidn2: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893) 
    * 2.3.8 nls -static-libs -verify-sig
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
-   * 1.8.11-r1 -conntrack -netlink -nftables -pcap -static-libs -test
+   * 1.8.12 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.12 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
