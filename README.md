@@ -214,6 +214,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.18 -doc -static-libs -test -threads
 * dev-libs/jsoncpp: C++ JSON reader and writer 
    * 1.9.6-r2 -doc -test
+* dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
+   * 1.6.0-r1 -asm -test -tools -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -247,7 +249,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.5.5-r1 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.5.5-r2 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
@@ -373,7 +375,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.32.5 test-rust -socks5 -test
+   * 2.32.5-r1 test-rust -socks5 -test
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 81.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
@@ -407,7 +409,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
    * 1.8.12 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
-   * 3.8.12 cxx idn nls openssl tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
+   * 3.8.12-r1 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
    * 1.0.1-r1 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
 * net-libs/libmnl: Minimalistic netlink library 
@@ -465,7 +467,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
    * 1.49.3 nls
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
-   * 0.10-r1 
+   * 0.11 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
    * 6.18.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
@@ -640,4 +642,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
-Found 316 matches
+Found 317 matches
