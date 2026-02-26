@@ -215,7 +215,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/jsoncpp: C++ JSON reader and writer 
    * 1.9.6-r2 -doc -test
 * dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
-   * 1.6.0-r1 -asm -test -tools -verify-sig
+   * 1.6.0-r3 -asm -test -tools -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -225,7 +225,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.59 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
-   * 1.6.7 -static-libs -verify-sig
+   * 1.6.8 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
    * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
@@ -467,7 +467,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
    * 1.49.3 nls
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
-   * 0.11 
+   * 0.12 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
    * 6.18.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
