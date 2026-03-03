@@ -467,7 +467,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
    * 1.49.3 nls
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
-   * 0.12 
+   * 0.13 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
    * 6.18.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
