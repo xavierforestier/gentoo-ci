@@ -407,7 +407,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-dns/libidn2: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893) 
    * 2.3.8 nls -static-libs -verify-sig
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
-   * 1.8.12 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
+   * 1.8.13 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.12-r1 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
@@ -469,7 +469,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
    * 0.13 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
-   * 6.18.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
+   * 6.19.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
    * 2.9.0-r1 bzip2 nls pam zlib -lzma -selinux -test -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
@@ -495,7 +495,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
-   * 7.2-r4 nls standalone -static -verify-sig
+   * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
    * 2.41.3 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
@@ -547,7 +547,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2025c nls -leaps-timezone -zic-slim
+   * 2026a nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
