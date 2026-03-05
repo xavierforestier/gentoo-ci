@@ -459,7 +459,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.10.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
-   * 5.4.0-r1 mpfr nls readline -pma -verify-sig
+   * 5.4.0-r2 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
    * 1.7.6 -test
 * sys-apps/grep: GNU regular expression matcher 
