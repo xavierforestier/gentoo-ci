@@ -235,7 +235,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libuv: Cross-platform asychronous I/O 
    * 1.51.0-r1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
-   * 2.15.1 readline -doc -icu -python -static-libs -test
+   * 2.15.2 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
@@ -435,7 +435,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.13 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
-   * 10.2_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
+   * 10.2_p1-r1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
    * 3.4.1-r2 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
@@ -455,7 +455,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
-   * 5.47 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
+   * 5.47-r1 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.10.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
@@ -503,7 +503,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/pambase: PAM base configuration files 
    * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
-   * 2.0.3-r1 -verify-sig
+   * 2.1.0 -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.46.0 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
@@ -529,7 +529,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
    * 35 
 * sys-kernel/linux-headers: Linux system headers 
-   * 6.18 -headers-only
+   * 6.19 -headers-only
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
