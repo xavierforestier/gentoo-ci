@@ -321,7 +321,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
-   * 3.4.4-r1 native-extensions -debug -test -verify-provenance
+   * 3.4.5 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
    * 3.2.4 -debug -doc -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
@@ -343,7 +343,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
-   * 6.1.0 -test
+   * 6.1.1 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
    * 4.4.0 -test
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
@@ -525,7 +525,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/patch: Utility to apply diffs to files 
    * 2.8-r1 xattr -static -test -verify-sig
 * sys-fs/e2fsprogs: Standard EXT2/EXT3/EXT4 filesystem utilities 
-   * 1.47.3-r1 nls tools -archive -cron -fuse -static-libs -test -verify-sig
+   * 1.47.4 nls tools -archive -cron -fuse -static-libs -test -verify-sig
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
    * 35 
 * sys-kernel/linux-headers: Linux system headers 
