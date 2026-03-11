@@ -15,6 +15,14 @@ RUN rm -rf /var/db/repos/gentoo || true
 RUN eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo
 RUN emerge --sync 
 RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
+# upgrade python
+RUN mkdir -p /etc/portage/package.use
+RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_13" > /etc/portage/package.use/python.use
+RUN emerge -NDuq world --changed-use --with-bdeps=y
+RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
+RUN emerge -NDuq world --changed-use --with-bdeps=y
+RUN echo "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
+RUN emerge -NDuq world --changed-use --with-bdeps=y
 # Cleanup : drop man-pages, an exotic locales
 RUN emerge -C sys-apps/man-pages virtual/man && rm -R /usr/share/{man,doc}/ && find /usr/share/locale/ -maxdepth 1 -mindepth 1 \! -name "en*" -print0|xargs -r0 rm -Rv && emerge -t --depclean
 RUN rm -rf /var/cache/distfiles/* /var/log/*.log || true 
