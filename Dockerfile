@@ -6,7 +6,7 @@ COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository portage app-portage/gentoolkit app-admin/sudo
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository portage app-portage/gentoolkit app-admin/sudo app-eselect/eselect-python
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
@@ -17,12 +17,24 @@ RUN emerge --sync
 RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 # upgrade python
 RUN mkdir -p /etc/portage/package.use
-RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_13" > /etc/portage/package.use/python.use
-RUN emerge -NDuq world --changed-use --with-bdeps=y
-RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
-RUN emerge -NDuq world --changed-use --with-bdeps=y
-RUN echo "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
-RUN emerge -NDuq world --changed-use --with-bdeps=y
+# Activate Python 3.14 when possible, and let python 3.13 as default
+RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_13" > /etc/portage/package.use/zzz.use
+RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          world --changed-use --with-bdeps=y
+# USE python 3.14 as default
+RUN eselect python update
+RUN echo "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/zzz.use
+RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          world --changed-use --with-bdeps=y
+# Try to disable the most python 3.13
+RUN echo "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/zzz.use
+RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          world --changed-use --with-bdeps=y
+# Rename python specifics deps USE flags with a clearer name
+RUN mv /etc/portage/package.use/zzz.use /etc/portage/package.use/python.use
 # Cleanup : drop man-pages, an exotic locales
 RUN emerge -C sys-apps/man-pages virtual/man && rm -R /usr/share/{man,doc}/ && find /usr/share/locale/ -maxdepth 1 -mindepth 1 \! -name "en*" -print0|xargs -r0 rm -Rv && emerge -t --depclean
 RUN rm -rf /var/cache/distfiles/* /var/log/*.log || true 
