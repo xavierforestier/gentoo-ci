@@ -90,7 +90,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/gzip: Standard GNU compressor 
    * 1.14 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
-   * 3.8.5 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
+   * 3.8.6 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
@@ -121,6 +121,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.1.1-r1 
 * app-eselect/eselect-pinentry: Manage /usr/bin/pinentry symlink 
    * 0.7.4 
+* app-eselect/eselect-python: Eselect module for management of multiple Python versions 
+   * 20200719 
 * app-eselect/eselect-repository: Manage repos.conf via eselect 
    * 15 git -mercurial -test
 * app-i18n/gnulib-l10n: Localization for gnulib 
@@ -194,7 +196,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
 * dev-db/sqlite: SQL database engine 
-   * 3.51.2 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -tools
+   * 3.51.3 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
@@ -205,9 +207,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.194 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
+   * 0.194-r1 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.7.4 unicode -examples -static-libs -test
+   * 2.7.5 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -255,7 +257,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
-   * 2.190.0 -kerberos -test
+   * 2.200.0 -kerberos -test
 * dev-perl/Capture-Tiny: Capture STDOUT and STDERR from Perl, XS, or external programs 
    * 0.500.0-r1 -examples -test
 * dev-perl/Class-Inspector: Provides information about Classes 
@@ -263,13 +265,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/Config-AutoConf: Module to implement some of AutoConf macros in pure perl 
    * 0.320.0 -test
 * dev-perl/Crypt-URandom: Provide non blocking randomness 
-   * 0.540.0 -test
+   * 0.550.0 -test
 * dev-perl/Digest-HMAC: Keyed Hashing for Message Authentication 
    * 1.50.0 -test
 * dev-perl/Error: Error/exception handling in an OO-ish way 
    * 0.170.300-r1 -test
 * dev-perl/Exporter-Tiny: An exporter with the features of Sub::Exporter but only core dependencies 
-   * 1.6.2 -examples -test
+   * 1.6.3 -examples -test
 * dev-perl/ExtUtils-CChecker: Configure-time utilities for using C headers 
    * 0.120.0-r1 -test
 * dev-perl/File-ShareDir: Locate per-dist and per-module shared files 
@@ -321,7 +323,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
-   * 3.4.5 native-extensions -debug -test -verify-provenance
+   * 3.4.6 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
    * 3.2.4 -debug -doc -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
@@ -389,7 +391,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/wheel: A built-package format for Python 
    * 0.46.3 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
-   * 5.2-r1 -test -verify-sig
+   * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
@@ -424,10 +426,12 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.68.0 -debug -hpack-tools -jemalloc -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.15.0 -verify-sig
+* net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
+   * 1.21.0 openssl ssl -gnutls -verify-sig
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.18.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.19.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.0 embedded ipv6 udev -debug -privsep
 * net-misc/iputils: Network monitoring tools including ping and ping6 
@@ -481,7 +485,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
-   * 0.63 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
+   * 0.63-r1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.77-r3 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
@@ -491,13 +495,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.19.3 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 259.3 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 259.4 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
-   * 2.41.3 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
+   * 2.41.3-r1 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
 * sys-auth/pambase: PAM base configuration files 
@@ -569,7 +573,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/libintl: Virtual for the GNU Internationalization Library 
    * 0-r2 
 * virtual/logger: Virtual for system loggers 
-   * 0-r2 -systemd
+   * 0-r3 -systemd
 * virtual/mta: Virtual for Message Transfer Agents 
    * 1-r2 
 * virtual/openssh: Virtual for net-misc/openssh and variants 
@@ -642,4 +646,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
-Found 317 matches
+Found 319 matches
