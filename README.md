@@ -207,7 +207,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.194-r1 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
+   * 0.194-r2 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.7.5 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
@@ -237,7 +237,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libuv: Cross-platform asychronous I/O 
    * 1.51.0-r1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
-   * 2.15.2 readline -doc -icu -python -static-libs -test
+   * 2.15.2-r1 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
@@ -637,11 +637,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/pkgconfig: Virtual for the pkg-config implementation 
    * 3 native-symlinks
 * virtual/service-manager: Virtual for various service managers 
-   * 2 -systemd
+   * 2-r1 -systemd
 * virtual/ssh: Virtual for SSH client and server 
    * 0-r2 -minimal
 * virtual/tmpfiles: Virtual to select between different tmpfiles.d handlers 
-   * 0-r5 -systemd
+   * 0-r6 -systemd
 * virtual/udev: Virtual to select between different udev daemon providers 
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
