@@ -190,7 +190,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.10.1 -test -test-full -verify-sig
+   * 1.10.2 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -200,7 +200,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.13.12 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
    * 3.14.3 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
@@ -433,7 +432,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/curl: A Client that groks URLs 
    * 8.19.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
-   * 10.3.0 embedded ipv6 udev -debug -privsep
+   * 10.3.1 embedded ipv6 udev -debug -privsep
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r3 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
