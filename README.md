@@ -240,7 +240,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
-   * 1.3.1 -static-libs -verify-sig
+   * 1.4.0 -static-libs -verify-sig
 * dev-libs/mpdecimal: Correctly-rounded arbitrary precision decimal floating point arithmetic 
    * 4.0.1 -cxx -test
 * dev-libs/mpfr: Library for multiple-precision floating-point computations with exact rounding 
