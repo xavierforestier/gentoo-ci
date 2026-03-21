@@ -6,7 +6,7 @@ COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
-RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository portage app-portage/gentoolkit app-admin/sudo app-eselect/eselect-python
+RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository app-eselect/eselect-python portage app-portage/gentoolkit app-admin/sudo dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs dev-lang/rust-bin
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
 # Last sync / update
@@ -18,14 +18,9 @@ RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 # upgrade python
 RUN mkdir -p /etc/portage/package.use
 # Activate Python 3.14 when possible, and let python 3.13 as default
-RUN echo -e "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_13" > /etc/portage/package.use/zzz.use
-RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
-          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          world --changed-use --with-bdeps=y
-# USE python 3.14 as default
 RUN eselect python update
 RUN echo -e "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/zzz.use
-RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
+RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \ 
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
           world --changed-use --with-bdeps=y
 # Try to disable the most python 3.13
