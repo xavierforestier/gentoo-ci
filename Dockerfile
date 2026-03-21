@@ -6,6 +6,7 @@ COPY --from=portage /var/db/repos/gentoo /var/db/repos/gentoo
 ENV JOB_COUNT=16
 # Switch to ~amd64 and build world
 RUN echo -e 'FEATURES="-ipc-sandbox -network-sandbox -pid-sandbox"\nLINGUAS="en"\nACCEPT_KEYWORDS="~amd64"' >>/etc/portage/make.conf
+RUN echo 'net-libs/nodejs npm' > /etc/portage/package.use/net-libs-nodejs.use 
 RUN FEATURES='-usersandbox' emerge --jobs=${JOB_COUNT} -q app-eselect/eselect-repository app-eselect/eselect-python portage app-portage/gentoolkit app-admin/sudo dev-vcs/git dev-libs/boost virtual/fortran dev-lang/lua x11-base/xorg-proto net-libs/nodejs dev-lang/rust-bin
 # Cleanup
 RUN emerge -t --depclean && rm -rf /var/cache/distfiles/* /var/log/*.log && wget "https://www.gentoo.org/dtd/metadata.dtd" -O /var/cache/distfiles/metadata.dtd
