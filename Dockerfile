@@ -16,7 +16,7 @@ RUN eselect repository remove -f gentoo
 RUN rm -rf /var/db/repos/gentoo || true
 RUN eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo
 RUN emerge --sync 
-RUN emerge -NDuq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
+RUN emerge -uq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 # upgrade python
 RUN mkdir -p /etc/portage/package.use
 # Activate Python 3.14 when possible, and let python 3.13 as default
