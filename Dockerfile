@@ -24,7 +24,7 @@ RUN eselect python update
 RUN echo -e "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/zzz.use
 RUN emerge -q --jobs=${JOB_COUNT} --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --update -q --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          world --changed-use --with-bdeps=y || true
+          world --changed-use --with-bdeps=y
 # Rename python specifics deps USE flags with a clearer name
 RUN mv /etc/portage/package.use/zzz.use /etc/portage/package.use/python.use
 # Cleanup : drop man-pages, an exotic locales
