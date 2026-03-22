@@ -509,7 +509,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/sed: Super-useful stream editor 
    * 4.9-r1 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
-   * 4.19.3 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
+   * 4.19.4 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
    * 255.18 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
