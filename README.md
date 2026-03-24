@@ -96,7 +96,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
-   * 6.0_p29 bzip2 unicode -natspec
+   * 6.0_p29-r1 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
    * 5.8.2 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
@@ -518,7 +518,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.19.4 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 260-r1 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 260.1 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
