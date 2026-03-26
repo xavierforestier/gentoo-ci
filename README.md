@@ -396,9 +396,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.32.5-r1 test-rust -socks5 -test
+   * 2.33.0 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 81.0.0 -test
+   * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 9.2.2 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
