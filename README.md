@@ -400,13 +400,15 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
-   * 9.2.2 -test -verify-provenance
+   * 10.0.5 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.1.14.14 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.6.3 -brotli -http2 -test -verify-provenance -zstd
+* dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
+   * 1.1.1 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.46.3 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
@@ -673,4 +675,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 333 matches
+Found 334 matches
