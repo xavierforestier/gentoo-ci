@@ -178,7 +178,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-text/sgml-common: Base ISO character entities and utilities for SGML 
    * 0.6.3-r7 
 * dev-build/autoconf: Used to create autoconfiguration files 
-   * 2.73 -verify-sig
+   * 2.73-r1 -verify-sig
 * dev-build/autoconf-archive: GNU Autoconf Macro Archive 
    * 2024.10.16-r2 
 * dev-build/autoconf-wrapper: Wrapper for autoconf to manage multiple autoconf versions 
@@ -204,7 +204,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
-   * 3.4.2 
+   * 3.4.4 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 7.7.1 -doc -test
 * dev-db/sqlite: SQL database engine 
