@@ -96,7 +96,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
-   * 6.0_p29-r1 bzip2 unicode -natspec
+   * 6.0_p29-r2 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
    * 5.8.2 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
@@ -154,7 +154,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p9 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p9-r1 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -190,7 +190,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.4.2 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.2.3 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.1 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -396,7 +396,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.33.0 test-rust -socks5 -test -verify-provenance
+   * 2.33.1 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
@@ -522,7 +522,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
    * 260.1 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
-   * 3.15 nls -ibm -selinux -static -verify-sig
+   * 3.18 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
