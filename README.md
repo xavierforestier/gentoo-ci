@@ -98,7 +98,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/unzip: unzipper for pkzip-compressed files 
    * 6.0_p29-r2 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
-   * 5.8.2 extra-filters nls -doc -pgo -static-libs -verify-sig
+   * 5.8.3 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
@@ -382,7 +382,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 10.8.0 -doc
 * dev-python/mypy: Optional static typing for Python 
-   * 1.19.1-r2 -debug -native-extensions -test
+   * 1.20.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
@@ -444,11 +444,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
-   * 1.68.0 -debug -hpack-tools -jemalloc -systemd -test -utils -verify-sig -xml
+   * 1.68.1 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.15.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
-   * 1.21.0 openssl ssl -gnutls -verify-sig
+   * 1.22.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 24.14.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 * net-mail/mailbase: MTA layout package 
