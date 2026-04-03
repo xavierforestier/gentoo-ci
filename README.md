@@ -344,7 +344,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
-   * 3.4.6 native-extensions -debug -test -verify-provenance
+   * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
    * 3.2.4 -debug -doc -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
@@ -380,7 +380,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 10.8.0 -doc
+   * 11.0.1 -doc
 * dev-python/mypy: Optional static typing for Python 
    * 1.20.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
@@ -462,7 +462,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.13 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
-   * 10.2_p1-r1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
+   * 10.3_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
    * 3.4.1-r2 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
@@ -526,7 +526,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
-   * 2.41.3-r1 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
+   * 2.41.4 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
 * sys-auth/pambase: PAM base configuration files 
