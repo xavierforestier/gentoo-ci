@@ -252,7 +252,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libtasn1: ASN.1 library 
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
-   * 1.3 -doc -static-libs
+   * 1.4.2 -doc -static-libs
 * dev-libs/libuv: Cross-platform asychronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
@@ -274,7 +274,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.0 all-impls -test -tools
+   * 4.6.1 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
