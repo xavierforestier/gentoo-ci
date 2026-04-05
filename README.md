@@ -352,7 +352,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
    * 26.0.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
-   * 3.12.0 -test
+   * 3.12.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.11 
+   * 3.11 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -372,13 +372,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
    * 4.2.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
-   * 3.1.6 -doc -test
+   * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
    * 0.8.1 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.0.2 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
-   * 3.0.3 native-extensions -debug -test
+   * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.0.1 -doc
 * dev-python/mypy: Optional static typing for Python 
@@ -392,7 +392,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
    * 4.9.4 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
-   * 1.6.0 -test
+   * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
@@ -404,7 +404,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.1.14.14 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
-   * 4.15.0 -test
+   * 4.15.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.6.3 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
