@@ -116,7 +116,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 8.7.1 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+   * 9.0 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -270,7 +270,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.5.5-r2 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.5.6 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
@@ -390,7 +390,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.0.4 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.9.4 -test -verify-provenance
+   * 4.9.6 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
