@@ -374,13 +374,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
-   * 0.8.1 -debug -test -verify-provenance
+   * 0.9.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.0.2 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 11.0.1 -doc
+   * 11.0.2 -doc
 * dev-python/mypy: Optional static typing for Python 
    * 1.20.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
