@@ -514,7 +514,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.77-r4 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.46 nnp
+   * 2.47 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.9-r1 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
