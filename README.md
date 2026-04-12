@@ -236,7 +236,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/jsoncpp: C++ JSON reader and writer 
    * 1.9.6-r2 -doc -test
 * dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
-   * 1.6.0-r3 -asm -test -tools -verify-sig
+   * 1.7.2 -asm -test -tools -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -270,7 +270,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.5.6 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.6.2 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
@@ -564,7 +564,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/glibc: GNU libc C library 
    * 2.43-r1 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
-   * 2.77 pam -static-libs -tools
+   * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
    * 2.6.0-r3 -debug -python -static-libs -test -verify-sig
 * sys-libs/libxcrypt: Extended crypt library for descrypt, md5crypt, bcrypt, and others 
