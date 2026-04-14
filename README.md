@@ -92,7 +92,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/gzip: Standard GNU compressor 
    * 1.14 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
-   * 3.8.6 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
+   * 3.8.7 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
