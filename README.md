@@ -150,7 +150,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.7.1 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
-   * 1.15-r1 -test
+   * 1.16 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
@@ -214,13 +214,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.4 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.4_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
-   * 1.94.0 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
+   * 1.94.1 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r1 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -236,7 +236,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/jsoncpp: C++ JSON reader and writer 
    * 1.9.6-r2 -doc -test
 * dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
-   * 1.7.2 -asm -test -tools -verify-sig
+   * 1.7.2-r3 asm -test -tools -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
@@ -348,7 +348,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/cython: A Python to C compiler 
    * 3.2.4 -debug -doc -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
-   * 0.5 -test
+   * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
    * 26.0.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
@@ -386,7 +386,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
-   * 26.0 -test -verify-provenance
+   * 26.1 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.0.4 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
