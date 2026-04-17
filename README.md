@@ -224,7 +224,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r1 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.194-r3 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
+   * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.7.5 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
@@ -260,7 +260,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
-   * 1.4.0 -static-libs -verify-sig
+   * 1.4.1 -static-libs -verify-sig
 * dev-libs/mpdecimal: Correctly-rounded arbitrary precision decimal floating point arithmetic 
    * 4.0.1 -cxx -test
 * dev-libs/mpfr: Library for multiple-precision floating-point computations with exact rounding 
@@ -434,7 +434,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.12-r1 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
-   * 1.0.3 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
+   * 1.0.5 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
 * net-libs/libmnl: Minimalistic netlink library 
    * 1.0.5 -examples -verify-sig
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
@@ -448,7 +448,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.15.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
-   * 1.22.0 openssl ssl -gnutls -verify-sig
+   * 1.22.1 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 24.14.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 * net-mail/mailbase: MTA layout package 
