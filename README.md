@@ -198,7 +198,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.10.2 -test -test-full -verify-sig
+   * 1.11.0 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -256,7 +256,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libuv: Cross-platform asychronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
-   * 2.15.2-r1 readline -doc -icu -python -static-libs -test
+   * 2.15.3 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
@@ -274,7 +274,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.1 all-impls -test -tools
+   * 4.6.2 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -482,7 +482,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
-   * 5.47-r1 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
+   * 5.47-r2 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.10.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
