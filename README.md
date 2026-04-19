@@ -108,7 +108,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
-   * 1.1.0 
+   * 1.1.0 -verify-sig
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
@@ -220,7 +220,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
-   * 1.94.1 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
+   * 1.95.0 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r1 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -376,7 +376,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/librt: Mypyc runtime library 
    * 0.9.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
-   * 6.0.4 threads -debug -doc -examples -test
+   * 6.1.0 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
@@ -456,7 +456,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/curl: A Client that groks URLs 
    * 8.19.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
-   * 10.3.1 embedded ipv6 udev -debug -privsep
+   * 10.3.1 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r3 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
