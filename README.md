@@ -148,7 +148,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.12 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.7.1 -test
+   * 0.7.2 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 1.16 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
@@ -198,7 +198,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.11.0 -test -test-full -verify-sig
+   * 1.11.1 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -422,7 +422,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.53.0 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -rust -selinux -subversion -test -tk -xinetd
+   * 2.54.0 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -rust -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -478,7 +478,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
    * 2.18-r1 -build -split-usr
 * sys-apps/coreutils: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...) 
-   * 9.10 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
+   * 9.11 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
