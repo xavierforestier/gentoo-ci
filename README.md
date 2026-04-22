@@ -190,7 +190,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.4.2 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.3.1 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.2 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.11 -verify-provenance
+   * 3.12 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -382,7 +382,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.0.2 -doc
 * dev-python/mypy: Optional static typing for Python 
-   * 1.20.1 -debug -native-extensions -test
+   * 1.20.2 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
