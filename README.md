@@ -150,7 +150,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.7.2 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
-   * 1.16 -test
+   * 1.17 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
@@ -206,7 +206,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 3.4.4 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 7.7.1 -doc -test
+   * 9.0.0 -doc -test
 * dev-db/sqlite: SQL database engine 
    * 3.51.3 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
@@ -316,7 +316,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/Module-Build: Build and install Perl modules 
    * 0.423.400-r5 -test
 * dev-perl/Net-SSLeay: Perl extension for using OpenSSL 
-   * 1.940.0-r1 -examples -minimal -test
+   * 1.960.0-r1 -examples -minimal -test
 * dev-perl/Params-Util: Utility functions to aid in parameter checking 
    * 1.102.0 -test
 * dev-perl/PerlIO-utf8_strict: Fast and correct UTF-8 IO 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.12 -verify-provenance
+   * 3.13 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -388,7 +388,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/packaging: Core utilities for Python packages 
    * 26.1 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
-   * 1.0.4 -verify-provenance
+   * 1.1.0 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
    * 4.9.6 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
@@ -410,7 +410,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
    * 1.1.1 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
-   * 0.46.3 -test -verify-provenance
+   * 0.47.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
@@ -516,11 +516,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.47 nnp
 * sys-apps/sed: Super-useful stream editor 
-   * 4.9-r1 acl nls -selinux -static -test-full -verify-sig
+   * 4.10 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
    * 4.19.4 acl nls pam xattr -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
-   * 260.1 acl kmod tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
+   * 260.1-r1 acl kmod sysctl tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
    * 3.18 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
