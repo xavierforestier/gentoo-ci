@@ -134,7 +134,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
 * app-misc/ca-certificates: Common CA Certificates PEM files 
-   * 20240203.3.98 -cacert
+   * 20250419.3.112-r1 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
 * app-misc/mime-types: Provides /etc/mime.types file 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
-   * 1.68.1 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
+   * 1.69.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.15.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
@@ -576,7 +576,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026a nls -leaps-timezone -zic-slim
+   * 2026b nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
