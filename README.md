@@ -102,7 +102,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.18 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.19 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -134,7 +134,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
 * app-misc/ca-certificates: Common CA Certificates PEM files 
-   * 20250419.3.112-r1 -cacert
+   * 20260223.3.112.4 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
 * app-misc/mime-types: Provides /etc/mime.types file 
@@ -226,7 +226,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.7.5 unicode -examples -static-libs -test
+   * 2.8.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/icu: International Components for Unicode 
@@ -386,7 +386,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
-   * 26.1 -test -verify-provenance
+   * 26.2 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.0 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
