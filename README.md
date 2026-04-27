@@ -134,7 +134,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
 * app-misc/ca-certificates: Common CA Certificates PEM files 
-   * 20260223.3.112.4 -cacert
+   * 20260223.3.112.4-r1 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
 * app-misc/mime-types: Provides /etc/mime.types file 
@@ -350,7 +350,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.0.1 test-rust -test
+   * 26.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 3.12.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
