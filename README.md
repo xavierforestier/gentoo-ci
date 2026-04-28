@@ -388,7 +388,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/packaging: Core utilities for Python packages 
    * 26.2 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
-   * 1.1.0 -verify-provenance
+   * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
    * 4.9.6 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
