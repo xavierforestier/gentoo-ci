@@ -150,7 +150,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.7.2 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
-   * 1.17 -test
+   * 1.19.1 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.0.5 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.1.14.14 -test -verify-provenance
+   * 2026.4.28.13 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
@@ -460,13 +460,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r3 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
-   * 0.7.13 dhcp
+   * 0.7.14 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.3_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
-   * 3.4.1-r3 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
+   * 3.4.2 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
-   * 1.25.0-r1 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
+   * 1.25.0-r2 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
    * 0.231.100-r1 
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
