@@ -212,7 +212,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
-   * 5.42.0-r1 gdbm -berkdb -doc -minimal
+   * 5.42.2 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
    * 3.14.4_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
@@ -244,7 +244,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
    * 1.12.2 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
-   * 1.59 nls -common-lisp -static-libs -test -verify-sig
+   * 1.60 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
    * 1.6.8 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
@@ -514,7 +514,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.77-r4 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.47 nnp
+   * 2.48 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.10 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
