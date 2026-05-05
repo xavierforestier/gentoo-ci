@@ -496,7 +496,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
    * 0.13 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
-   * 6.19.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
+   * 7.0.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
    * 2.9.0-r1 bzip2 nls pam zlib -lzma -selinux -test -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
