@@ -208,7 +208,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 9.0.0 -doc -test
 * dev-db/sqlite: SQL database engine 
-   * 3.51.3 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
+   * 3.53.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
@@ -228,7 +228,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.8.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
-   * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
+   * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/icu: International Components for Unicode 
    * 78.3 -debug -doc -examples -static-libs -test -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -350,7 +350,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.1 test-rust -test
+   * 26.1.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 3.12.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -374,7 +374,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
-   * 0.9.0 -debug -test -verify-provenance
+   * 0.10.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.0 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
