@@ -341,6 +341,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.490.0-r1 -test
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
+* dev-python/ast-serialize: Python bindings for mypy AST serialization 
+   * 0.3.0 -debug -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
@@ -382,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.0.2 -doc
 * dev-python/mypy: Optional static typing for Python 
-   * 1.20.2 -debug -native-extensions -test
+   * 2.0.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
@@ -415,6 +417,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
+* dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
+   * 1.13.1 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.18.0 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
@@ -675,4 +679,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 334 matches
+Found 336 matches
