@@ -154,7 +154,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p9-r1 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p9-r2 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -486,7 +486,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
-   * 5.47-r2 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
+   * 5.47-r3 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.10.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
@@ -518,7 +518,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.78 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.48 nnp
+   * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.10 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
