@@ -214,7 +214,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.42.2 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.4_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.5 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -226,7 +226,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.8.0 unicode -examples -static-libs -test
+   * 2.8.1 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/icu: International Components for Unicode 
@@ -364,7 +364,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.13 -verify-provenance
+   * 3.14 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -376,7 +376,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
-   * 0.10.0 -debug -test -verify-provenance
+   * 0.11.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.0 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
@@ -418,7 +418,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
-   * 1.13.1 ssl -debug -doc -test
+   * 1.13.2 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.18.0 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
