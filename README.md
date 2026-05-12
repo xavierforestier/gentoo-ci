@@ -108,7 +108,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
-   * 1.1.0 -verify-sig
+   * 1.2.0 -verify-sig
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
@@ -366,7 +366,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.14 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
-   * 0.7.0 -test
+   * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
    * 6.1.2 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.0.2 -doc
 * dev-python/mypy: Optional static typing for Python 
-   * 2.0.0 -debug -native-extensions -test
+   * 2.1.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
@@ -398,7 +398,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.33.1 test-rust -socks5 -test -verify-provenance
+   * 2.34.0 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
@@ -418,7 +418,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
-   * 1.13.2 ssl -debug -doc -test
+   * 1.13.3 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.18.0 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
