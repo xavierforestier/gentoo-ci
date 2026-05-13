@@ -364,7 +364,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.14 -verify-provenance
+   * 3.15 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
