@@ -102,7 +102,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.19 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.20 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -246,7 +246,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.60 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
-   * 1.6.8 -static-libs -verify-sig
+   * 1.8.0 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
    * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
@@ -398,7 +398,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.34.0 test-rust -socks5 -test -verify-provenance
+   * 2.34.1 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
