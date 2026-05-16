@@ -370,7 +370,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jaraco-context: Context managers by jaraco 
    * 6.1.2 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
-   * 4.4.0 -test
+   * 4.5.0 -test
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
    * 4.2.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
