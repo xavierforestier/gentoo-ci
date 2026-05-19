@@ -378,7 +378,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/librt: Mypyc runtime library 
    * 0.11.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
-   * 6.1.0 threads -debug -doc -examples -test
+   * 6.1.1 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
@@ -536,7 +536,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/pambase: PAM base configuration files 
    * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
-   * 2.1.0 -verify-sig
+   * 2.1.0-r1 -audit -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.46.0 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
