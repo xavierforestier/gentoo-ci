@@ -404,7 +404,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.0.5 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.5.7.17 -test -verify-provenance
+   * 2026.5.20.19 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
@@ -530,7 +530,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
-   * 2.41.4 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
+   * 2.41.4-r1 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
 * sys-auth/pambase: PAM base configuration files 
