@@ -382,7 +382,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 11.0.2 -doc
+   * 11.1.0 -doc
 * dev-python/mypy: Optional static typing for Python 
    * 2.1.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
@@ -404,7 +404,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.0.5 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.5.20.19 -test -verify-provenance
+   * 2026.5.22.10 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
@@ -516,7 +516,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.78 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.79 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
