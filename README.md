@@ -348,7 +348,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.4 -debug -doc -test -test-full
+   * 3.2.5 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
