@@ -502,7 +502,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/iproute2: kernel routing and traffic control utilities 
    * 7.0.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
-   * 2.9.0-r1 bzip2 nls pam zlib -lzma -selinux -test -zstd
+   * 2.9.0-r2 bzip2 nls pam zlib -lzma -selinux -test -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
