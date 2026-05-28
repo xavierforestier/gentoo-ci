@@ -104,7 +104,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.20 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
-   * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
+   * 2.1.0 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
@@ -502,7 +502,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/iproute2: kernel routing and traffic control utilities 
    * 7.0.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
-   * 2.9.0-r2 bzip2 nls pam zlib -lzma -selinux -test -zstd
+   * 2.10.0 bzip2 nls pam zlib -lzma -selinux -test -xkb -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
