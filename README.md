@@ -364,7 +364,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.16 -verify-provenance
+   * 3.17 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -392,7 +392,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.9.6 -test -verify-provenance
+   * 4.10.0 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -492,7 +492,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/gawk: GNU awk pattern-matching language 
    * 5.4.0-r2 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
-   * 1.7.6 -test
+   * 1.7.7 -test
 * sys-apps/grep: GNU regular expression matcher 
    * 3.12 egrep-fgrep nls pcre -static -test-full -verify-sig
 * sys-apps/help2man: GNU utility to convert program --help output to a man page 
