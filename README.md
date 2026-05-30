@@ -462,7 +462,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
-   * 20250605-r3 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
+   * 20250605-r4 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.14 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
