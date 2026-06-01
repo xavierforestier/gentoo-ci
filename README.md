@@ -148,9 +148,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.12 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.7.2 -test
+   * 0.7.4 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
-   * 1.19.1 -test
+   * 2.0 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
@@ -352,7 +352,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.1.1 test-rust -test
+   * 26.1.2 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 3.12.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.29.0 -test
+   * 1.30.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.17 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
@@ -506,7 +506,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 692 pcre -test -verify-sig
+   * 702 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/lsb-release: LSB version query program 
@@ -516,7 +516,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.79 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.79-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
