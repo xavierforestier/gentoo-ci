@@ -104,15 +104,15 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.20 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
-   * 2.1.0 -common-lisp -static-libs -test -verify-sig
+   * 2.0.1-r1 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
-   * 0.98.1-r3 openmp -native-cflags -static-libs
+   * 0.98.1-r3 -native-cflags -openmp -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
-   * 1.2.0 -verify-sig
+   * 1.1.0 -verify-sig
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
-   * 1.4.6-r1 nls ssl -debug -static-libs
+   * 1.4.5 nls ssl -debug -static-libs
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
@@ -150,11 +150,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.7.4 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
-   * 2.0 -test
+   * 1.19.1 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
-   * 0.97.1 openmp qmanifest -static
+   * 0.97.1 qmanifest -openmp -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p9-r2 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p12 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -178,13 +178,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-text/sgml-common: Base ISO character entities and utilities for SGML 
    * 0.6.3-r7 
 * dev-build/autoconf: Used to create autoconfiguration files 
-   * 2.73-r1 -verify-sig
+   * 2.72-r7 -verify-sig
 * dev-build/autoconf-archive: GNU Autoconf Macro Archive 
    * 2024.10.16-r2 
 * dev-build/autoconf-wrapper: Wrapper for autoconf to manage multiple autoconf versions 
    * 20260320 
 * dev-build/automake: Used to generate Makefile.in from Makefile.am 
-   * 1.18.1 -test -verify-sig
+   * 1.18.1-r1 -test -verify-sig
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
    * 20250528 
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
@@ -198,7 +198,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.11.1 -test -test-full -verify-sig
+   * 1.10.2 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -212,9 +212,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
-   * 5.42.2 gdbm -berkdb -doc -minimal
+   * 5.42.0-r1 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.5 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.13.13_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
+   * 3.14.4_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -228,7 +229,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.8.1 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
-   * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
+   * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/icu: International Components for Unicode 
    * 78.3 -debug -doc -examples -static-libs -test -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -244,15 +245,15 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
    * 1.12.2 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
-   * 1.60 nls -common-lisp -static-libs -test -verify-sig
+   * 1.59 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
-   * 1.8.0 -static-libs -verify-sig
+   * 1.6.8 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
    * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
-   * 1.4.2 -doc -static-libs
+   * 1.3 -doc -static-libs
 * dev-libs/libuv: Cross-platform asychronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
@@ -270,13 +271,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.6.2 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.5.6 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
    * 4.6.2 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
-   * 0.8.3-r2 -static-libs
+   * 0.8.3 
 * dev-perl/Authen-SASL: Perl SASL interface 
    * 2.200.0 -kerberos -test
 * dev-perl/Capture-Tiny: Capture STDOUT and STDERR from Perl, XS, or external programs 
@@ -292,7 +293,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/Error: Error/exception handling in an OO-ish way 
    * 0.170.300-r1 -test
 * dev-perl/Exporter-Tiny: An exporter with the features of Sub::Exporter but only core dependencies 
-   * 1.6.3 -examples -test
+   * 1.6.2 -examples -test
 * dev-perl/ExtUtils-CChecker: Configure-time utilities for using C headers 
    * 0.120.0-r1 -test
 * dev-perl/File-ShareDir: Locate per-dist and per-module shared files 
@@ -341,8 +342,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.490.0-r1 -test
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
-* dev-python/ast-serialize: Python bindings for mypy AST serialization 
-   * 0.3.0 -debug -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
@@ -362,15 +361,15 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.30.0 -test
+   * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.17 -verify-provenance
+   * 3.14 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
-   * 1.0.1 -test -verify-provenance
+   * 0.7.0 -test
 * dev-python/jaraco-context: Context managers by jaraco 
    * 6.1.2 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
-   * 4.5.0 -test
+   * 4.4.0 -test
 * dev-python/jaraco-text: Text utilities used by other projects by developer jaraco 
    * 4.2.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
@@ -382,9 +381,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 11.1.0 -doc
+   * 11.0.2 -doc
 * dev-python/mypy: Optional static typing for Python 
-   * 2.1.0 -debug -native-extensions -test
+   * 1.20.2 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
@@ -392,19 +391,19 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.10.0 -test -verify-provenance
+   * 4.9.6 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
-   * 2.34.2 test-rust -socks5 -test -verify-provenance
+   * 2.33.1 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 82.0.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.0.5 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.5.22.10 -test -verify-provenance
+   * 2026.6.1.19 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
    * 4.15.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
@@ -417,8 +416,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
-* dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
-   * 1.13.3 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.18.0 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
@@ -438,7 +435,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.13 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
-   * 1.0.5 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
+   * 1.0.1-r1 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
 * net-libs/libmnl: Minimalistic netlink library 
    * 1.0.5 -examples -verify-sig
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
@@ -450,21 +447,21 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/nghttp2: HTTP/2 C Library 
    * 1.69.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
-   * 1.15.0 -verify-sig
+   * 1.16.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
-   * 1.22.1 openssl ssl -gnutls -verify-sig
+   * 1.23.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 24.14.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.19.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.19.0 adns alt-svc ftp hsts httpsrr imap openssl pop3 psl smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -http2 -http3 -idn -kerberos -ldap -mbedtls -quic -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r4 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
-   * 0.7.14 dhcp
+   * 0.7.13 dhcp
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.3_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
@@ -482,7 +479,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
    * 2.18-r1 -build -split-usr
 * sys-apps/coreutils: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...) 
-   * 9.11 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
+   * 9.11-r1 acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -test-full -vanilla -verify-sig
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
@@ -506,7 +503,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 702 pcre -test -verify-sig
+   * 704 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/lsb-release: LSB version query program 
@@ -518,7 +515,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.79-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.49 nnp
+   * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.10 acl nls -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
@@ -526,7 +523,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
    * 260.1-r1 acl kmod sysctl tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
-   * 3.18 nls -ibm -selinux -static -verify-sig
+   * 3.15 nls -ibm -selinux -static -verify-sig
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
@@ -536,7 +533,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/pambase: PAM base configuration files 
    * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
-   * 2.1.0-r1 -audit -verify-sig
+   * 2.1.0 -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.46.0 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
@@ -550,7 +547,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/gcc-config: Utility to manage compilers 
    * 2.12.2 cc-wrappers native-symlinks
 * sys-devel/gettext: GNU locale utilities 
-   * 0.23.2 acl cxx ncurses nls openmp xattr -doc -emacs -git -java -static-libs -verify-sig
+   * 0.23.2 acl cxx ncurses nls xattr -doc -emacs -git -java -openmp -static-libs -verify-sig
 * sys-devel/gnuconfig: Updated config.sub and config.guess file from GNU 
    * 20250710 
 * sys-devel/m4: GNU macro processor 
@@ -562,11 +559,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
    * 35 
 * sys-kernel/linux-headers: Linux system headers 
-   * 6.19 -headers-only
+   * 6.18 -headers-only
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.43-r2 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.42-r7 cet multiarch ssp static-libs -audit -caps -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
@@ -580,7 +577,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026b nls -leaps-timezone -zic-slim
+   * 2026a nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
@@ -672,11 +669,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/ssh: Virtual for SSH client and server 
    * 0-r2 -minimal
 * virtual/tmpfiles: Virtual to select between different tmpfiles.d handlers 
-   * 0-r7 -systemd
+   * 0-r6 -systemd
 * virtual/udev: Virtual to select between different udev daemon providers 
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 336 matches
+Found 334 matches
