@@ -154,7 +154,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 qmanifest -openmp -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p12 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p15 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -347,7 +347,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.5 -debug -test -test-full
+   * 3.2.5-r1 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -451,7 +451,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.23.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 24.14.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
+   * 24.16.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -483,7 +483,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/diffutils: Tools to make diffs and compare files 
    * 3.12 nls -verify-sig
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
-   * 5.47-r3 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
+   * 5.48 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.10.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
