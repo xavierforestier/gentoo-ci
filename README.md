@@ -122,7 +122,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
    * 0.1.1-r1 
 * app-eselect/eselect-lua: Lua eselect module 
-   * 4-r1 
+   * 4-r2 
 * app-eselect/eselect-pinentry: Manage /usr/bin/pinentry symlink 
    * 0.7.4 
 * app-eselect/eselect-python: Eselect module for management of multiple Python versions 
@@ -543,7 +543,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/flex: The Fast Lexical Analyzer 
    * 2.6.4-r6 nls -static -test
 * sys-devel/gcc: The GNU Compiler Collection 
-   * 16.1.0 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
+   * 16.1.1_p20260606 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
 * sys-devel/gcc-config: Utility to manage compilers 
    * 2.12.2 cc-wrappers native-symlinks
 * sys-devel/gettext: GNU locale utilities 
