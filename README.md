@@ -230,8 +230,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.8.1 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
-* dev-libs/icu: International Components for Unicode 
-   * 78.3 -debug -doc -examples -static-libs -test -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
    * 0.18 -doc -static-libs -test -threads
 * dev-libs/jsoncpp: C++ JSON reader and writer 
@@ -451,7 +449,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.23.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 24.16.0 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
+   * 26.3.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -676,4 +674,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 334 matches
+Found 333 matches
