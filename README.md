@@ -188,7 +188,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
    * 20250528 
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
-   * 5.4.2 -examples
+   * 5.4.2-r1 -examples
 * dev-build/cmake: Cross platform Make 
    * 4.3.3 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
@@ -515,7 +515,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.79-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.80 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.46 nnp
 * sys-apps/sed: Super-useful stream editor 
