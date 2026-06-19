@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.IMAGE_NAME }}
 
@@ -65,7 +65,7 @@ jobs:
     steps:
     # synchronys my own git
     - name: Checkout code
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
     - name: Update README
       run: |
         git config --global --add safe.directory /__w/gentoo-ci/gentoo-ci
