@@ -223,7 +223,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/rust-bin: Systems programming language from Mozilla 
    * 1.95.0 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
-   * 1.90.0-r1 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
+   * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
