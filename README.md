@@ -108,7 +108,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 -native-cflags -openmp -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
-   * 1.1.0 -verify-sig
+   * 1.2.0 -verify-sig
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
@@ -190,7 +190,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.4.2-r1 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.3.3 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.3-r1 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -212,10 +212,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
-   * 5.42.0-r1 gdbm -berkdb -doc -minimal
+   * 5.42.2 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
    * 3.13.14 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -test -tk -valgrind -verify-sig
-   * 3.14.6 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.6 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -229,7 +229,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.8.1 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
-   * 6.3.0-r1 asm cpudetection cxx -doc -pic -static-libs -verify-sig
+   * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
    * 0.18 -doc -static-libs -test -threads
 * dev-libs/jsoncpp: C++ JSON reader and writer 
@@ -243,9 +243,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
    * 1.12.2 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
-   * 1.59 nls -common-lisp -static-libs -test -verify-sig
+   * 1.60 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
-   * 1.6.8 -static-libs -verify-sig
+   * 1.8.0 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
    * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
@@ -291,7 +291,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/Error: Error/exception handling in an OO-ish way 
    * 0.170.300-r1 -test
 * dev-perl/Exporter-Tiny: An exporter with the features of Sub::Exporter but only core dependencies 
-   * 1.6.2 -examples -test
+   * 1.6.3 -examples -test
 * dev-perl/ExtUtils-CChecker: Configure-time utilities for using C headers 
    * 0.120.0-r1 -test
 * dev-perl/File-ShareDir: Locate per-dist and per-module shared files 
@@ -363,7 +363,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.29.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.15 -verify-provenance
+   * 3.16 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -381,7 +381,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 11.0.2 -doc
+   * 11.1.0 -doc
 * dev-python/mypy: Optional static typing for Python 
    * 2.1.0 -debug -native-extensions -test
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
@@ -579,7 +579,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026a nls -leaps-timezone -zic-slim
+   * 2026b nls -leaps-timezone -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
