@@ -57,6 +57,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0-r4 
 * acct-user/postmaster: Postmaster user 
    * 0-r3 
+* acct-user/root: System user: root 
+   * 0-r3 
 * acct-user/sshd: User for ssh 
    * 0-r3 
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
@@ -112,7 +114,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.2-r1 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
-   * 1.4.5 nls ssl -debug -static-libs
+   * 1.4.6-r1 nls ssl -debug -static-libs
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
@@ -148,7 +150,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.12 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.7.4 -test
+   * 0.7.5 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 2.0 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
@@ -198,7 +200,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.10.2 -test -test-full -verify-sig
+   * 1.11.1 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -227,7 +229,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.8.1 unicode -examples -static-libs -test
+   * 2.8.2 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -347,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.5-r1 -debug -test -test-full
+   * 3.2.6 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -457,7 +459,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.19.0 adns alt-svc ftp hsts httpsrr imap openssl pop3 psl smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -http2 -http3 -idn -kerberos -ldap -mbedtls -quic -rtmp -rustls -samba -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.20.0-r1 adns alt-svc ftp hsts httpsrr imap openssl pop3 psl smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -http2 -http3 -idn -kerberos -ldap -mbedtls -quic -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
@@ -535,7 +537,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-auth/pambase: PAM base configuration files 
    * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
-   * 2.1.0 -verify-sig
+   * 2.1.0-r1 -audit -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.46.1 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -verify-sig -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
@@ -615,21 +617,21 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/pager: Virtual for command-line pagers 
    * 0-r1 
 * virtual/perl-CPAN: Virtual for CPAN 
-   * 2.380.0 
+   * 2.380.0-r1 
 * virtual/perl-CPAN-Meta: Virtual for CPAN-Meta 
    * 2.150.10-r11 
 * virtual/perl-Carp: Virtual for Carp 
-   * 1.540.0-r2 
+   * 1.540.0-r3 
 * virtual/perl-Data-Dumper: Virtual for Data-Dumper 
-   * 2.192.0 
+   * 2.192.0-r1 
 * virtual/perl-Digest-MD5: Virtual for Digest-MD5 
-   * 2.590.0 
+   * 2.590.0-r1 
 * virtual/perl-Digest-SHA: Virtual for Digest-SHA 
-   * 6.40.0-r2 
+   * 6.40.0-r3 
 * virtual/perl-Encode: Virtual for Encode 
    * 3.210.0-r2 
 * virtual/perl-Exporter: Virtual for Exporter 
-   * 5.790.0 
+   * 5.790.0-r1 
 * virtual/perl-ExtUtils-CBuilder: Virtual for ExtUtils-CBuilder 
    * 0.280.242-r2 
 * virtual/perl-ExtUtils-MakeMaker: Virtual for ExtUtils-MakeMaker 
@@ -637,7 +639,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/perl-ExtUtils-ParseXS: Virtual for ExtUtils-ParseXS 
    * 3.570.0 
 * virtual/perl-File-Path: Virtual for File-Path 
-   * 2.180.0-r4 
+   * 2.180.0-r5 
 * virtual/perl-File-Spec: Virtual for File-Spec 
    * 3.940.0 
 * virtual/perl-File-Temp: Virtual for File-Temp 
@@ -645,7 +647,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/perl-IO: Virtual for IO 
    * 1.550.0-r1 
 * virtual/perl-JSON-PP: Virtual for JSON-PP 
-   * 4.160.0-r3 
+   * 4.160.0-r4 
 * virtual/perl-Math-BigInt: Virtual for Math-BigInt 
    * 2.5.2 
 * virtual/perl-Module-Metadata: Virtual for Module-Metadata 
@@ -655,13 +657,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/perl-Test-Harness: Virtual for Test-Harness 
    * 3.500.0-r1 
 * virtual/perl-Text-ParseWords: Virtual for Text-ParseWords 
-   * 3.310.0-r4 
+   * 3.310.0-r5 
 * virtual/perl-XSLoader: Virtual for XSLoader 
-   * 0.320.0-r2 
+   * 0.320.0-r3 
 * virtual/perl-libnet: Virtual for libnet 
-   * 3.150.0-r2 ssl
+   * 3.150.0-r3 ssl
 * virtual/perl-podlators: Virtual for podlators 
-   * 6.0.2 
+   * 6.0.2-r1 
 * virtual/perl-version: Virtual for version 
    * 0.993.300 
 * virtual/pkgconfig: Virtual for the pkg-config implementation 
@@ -678,4 +680,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 335 matches
+Found 336 matches
