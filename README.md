@@ -96,7 +96,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/libarchive: Multi-format archive and compression library 
    * 3.8.7 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
-   * 1.35 acl nls xattr -minimal -selinux -verify-sig
+   * 1.35-r1 acl nls xattr -minimal -selinux -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
    * 6.0_p29-r2 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
@@ -427,7 +427,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.54.0 curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -rust -selinux -subversion -test -tk -xinetd
+   * 2.55.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -451,9 +451,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/nghttp2: HTTP/2 C Library 
    * 1.69.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
-   * 1.16.0 -verify-sig
+   * 1.17.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
-   * 1.23.0 openssl ssl -gnutls -verify-sig
+   * 1.24.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 26.3.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
