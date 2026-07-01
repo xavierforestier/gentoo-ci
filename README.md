@@ -96,7 +96,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/libarchive: Multi-format archive and compression library 
    * 3.8.7 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
-   * 1.35-r1 acl nls xattr -minimal -selinux -verify-sig
+   * 1.35-r1 acl nls xattr -minimal -selinux -test -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
    * 6.0_p29-r2 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
