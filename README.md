@@ -349,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.6 -debug -test -test-full
+   * 3.2.8 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -427,7 +427,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.55.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
+   * 2.55.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
