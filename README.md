@@ -150,7 +150,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.12 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.7.5 -test
+   * 0.7.6 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 2.0 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
