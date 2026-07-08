@@ -124,7 +124,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
    * 0.1.1-r1 
 * app-eselect/eselect-lua: Lua eselect module 
-   * 4-r2 
+   * 4-r3 
 * app-eselect/eselect-pinentry: Manage /usr/bin/pinentry symlink 
    * 0.7.4 
 * app-eselect/eselect-python: Eselect module for management of multiple Python versions 
