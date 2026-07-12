@@ -489,7 +489,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/file: Identify a file's format by scanning binary data for patterns 
    * 5.48 bzip2 seccomp zlib -lzip -lzma -python -static-libs -verify-sig -zstd
 * sys-apps/findutils: GNU utilities for finding files 
-   * 4.10.0 nls -selinux -static -test -test-full -verify-sig
+   * 4.11.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
    * 5.4.1 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
