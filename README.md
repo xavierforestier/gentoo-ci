@@ -669,7 +669,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/pkgconfig: Virtual for the pkg-config implementation 
    * 3 native-symlinks
 * virtual/service-manager: Virtual for various service managers 
-   * 2-r1 -systemd
+   * 3 -systemd
 * virtual/ssh: Virtual for SSH client and server 
    * 0-r2 -minimal
 * virtual/tmpfiles: Virtual to select between different tmpfiles.d handlers 
