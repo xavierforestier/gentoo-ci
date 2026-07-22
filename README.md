@@ -254,7 +254,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
    * 1.3 -doc -static-libs
-* dev-libs/libuv: Cross-platform asychronous I/O 
+* dev-libs/libuv: Cross-platform asynchronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
    * 2.15.3 readline -doc -icu -python -static-libs -test
