@@ -223,7 +223,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
-   * 1.96.1 clippy doc rustfmt -big-endian -prefix -rust-analyzer -rust-src -verify-sig
+   * 1.97.1 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -547,7 +547,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/flex: The Fast Lexical Analyzer 
    * 2.6.4-r6 nls -static -test
 * sys-devel/gcc: The GNU Compiler Collection 
-   * 16.1.1_p20260613 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
+   * 16.1.1_p20260718 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
 * sys-devel/gcc-config: Utility to manage compilers 
    * 2.12.2 cc-wrappers native-symlinks
 * sys-devel/gettext: GNU locale utilities 
