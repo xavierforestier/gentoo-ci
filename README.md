@@ -66,7 +66,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-admin/metalog: Highly configurable replacement for syslogd/klogd 
    * 20260221 unicode zlib
 * app-admin/perl-cleaner: User land tool for cleaning up old perl installs 
-   * 2.31-r2 -pkgcore
+   * 2.31-r3 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
    * 1.9.17_p2 nls pam secure-path sendmail ssl -gcrypt -ldap -offensive -sasl -selinux -skey -sssd -verify-sig
 * app-alternatives/awk: /bin/awk and /usr/bin/awk symlinks 
@@ -192,7 +192,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.4.2-r1 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.3.3-r1 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.4 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -235,7 +235,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/json-c: A JSON implementation in C 
    * 0.18 -doc -static-libs -test -threads
 * dev-libs/jsoncpp: C++ JSON reader and writer 
-   * 1.9.6-r2 -doc -test
+   * 1.9.8 -doc -test
 * dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
    * 1.7.2-r3 asm -test -tools -verify-sig
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
@@ -253,7 +253,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libtasn1: ASN.1 library 
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
-   * 1.3 -doc -static-libs
+   * 1.4.2 -doc -static-libs
 * dev-libs/libuv: Cross-platform asynchronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
@@ -349,7 +349,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.4.7 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.8 -debug -test -test-full
+   * 3.2.9 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -363,9 +363,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.29.0 -test
+   * 1.30.1 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.16 -verify-provenance
+   * 3.18 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -393,7 +393,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.9.6 -test -verify-provenance
+   * 4.10.0 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -419,7 +419,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
-   * 1.13.3 ssl -debug -doc -test
+   * 1.14.1 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.18.0 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
@@ -463,9 +463,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
-   * 20250605-r4 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
+   * 20250605-r4 arping caps nls suid -clockdiff -doc -filecaps -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
-   * 0.7.13 dhcp
+   * 0.7.14-r1 dhcp -systemd
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.3_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
@@ -515,11 +515,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
-   * 0.63.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
+   * 0.63.3 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.81.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.46 nnp
+   * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.10-r1 acl nls xattr -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
