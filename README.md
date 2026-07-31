@@ -476,7 +476,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
    * 20260125 -test
 * sys-apps/acl: Access control list utilities, libraries, and headers 
-   * 2.4.0-r1 nls -static-libs -verify-sig
+   * 2.4.0-r2 nls -static-libs -verify-sig
 * sys-apps/attr: Extended attributes tools 
    * 2.6.0 nls -debug -static-libs -verify-sig
 * sys-apps/baselayout: Filesystem baselayout and init scripts 
@@ -533,8 +533,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.42.2 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
+* sys-auth/pam_xdg: PAM module that manages XDG Base Directories 
+   * 0.8.5 
 * sys-auth/pambase: PAM base configuration files 
-   * 20251104-r1 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd
+   * 20260730 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd -turnstile
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
    * 2.1.0-r1 -audit -verify-sig
 * sys-devel/binutils: Tools necessary to build programs 
@@ -679,4 +681,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 336 matches
+Found 337 matches
