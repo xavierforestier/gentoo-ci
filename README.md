@@ -118,7 +118,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 9.1 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+   * 9.2 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
