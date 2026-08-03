@@ -142,7 +142,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-misc/mime-types: Provides /etc/mime.types file 
    * 2.1.54 -nginx
 * app-misc/pax-utils: ELF utils that can check files for security relevant properties 
-   * 1.3.10 -caps -man -python -seccomp -test
+   * 1.3.11 -caps -man -python -seccomp -test
 * app-portage/eix: Search and query ebuilds 
    * 0.36.9 nls -debug -doc -sqlite
 * app-portage/elt-patches: Collection of patches for libtool.eclass 
@@ -422,7 +422,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.19.1 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
-   * 3.0.4 native-symlinks
+   * 3.0.5 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
@@ -458,7 +458,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.21.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.21.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
