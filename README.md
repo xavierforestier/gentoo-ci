@@ -354,7 +354,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
    * 26.1.2 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
-   * 3.12.0 -test -verify-provenance
+   * 4.0.2 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
@@ -388,7 +388,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
    * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
-   * 26.2 -test -verify-provenance
+   * 26.3 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
