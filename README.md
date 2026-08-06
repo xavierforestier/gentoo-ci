@@ -216,7 +216,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.6_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.7 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -454,13 +454,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.3.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.7.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
    * 8.21.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
-   * 10.3.2 embedded ipv6 udev -debug -privsep -verify-sig
+   * 10.5.0 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r4 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
@@ -554,7 +554,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/gettext: GNU locale utilities 
    * 0.23.2 acl cxx ncurses nls openmp xattr -doc -emacs -git -java -static-libs -verify-sig
 * sys-devel/gnuconfig: Updated config.sub and config.guess file from GNU 
-   * 20250710 
+   * 20260517 
 * sys-devel/m4: GNU macro processor 
    * 1.4.21 nls -examples -verify-sig
 * sys-devel/patch: Utility to apply diffs to files 
