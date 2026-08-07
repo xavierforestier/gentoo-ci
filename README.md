@@ -342,7 +342,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
 * dev-python/ast-serialize: Python bindings for mypy AST serialization 
-   * 0.6.0 -debug -test -verify-provenance
+   * 0.7.0 -debug -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
@@ -376,7 +376,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
-   * 0.13.0 -debug -test -verify-provenance
+   * 0.14.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.1 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
