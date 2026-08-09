@@ -342,7 +342,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
 * dev-python/ast-serialize: Python bindings for mypy AST serialization 
-   * 0.7.0 -debug -test -verify-provenance
+   * 0.8.0 -debug -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
@@ -376,7 +376,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/librt: Mypyc runtime library 
-   * 0.14.0 -debug -test -verify-provenance
+   * 0.15.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.1 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
@@ -392,7 +392,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.0 -test -verify-provenance
+   * 4.11.1 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -400,7 +400,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 83.0.0 -test
+   * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.2.1 -test -verify-provenance
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -410,7 +410,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.7.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.2.3 -test -verify-provenance
+   * 2.2.4 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.47.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
@@ -448,7 +448,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
-   * 1.69.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
+   * 1.70.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.18.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
