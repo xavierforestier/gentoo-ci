@@ -206,7 +206,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
-   * 3.4.4 
+   * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 9.0.0 -doc -test
 * dev-db/sqlite: SQL database engine 
