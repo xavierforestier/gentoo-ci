@@ -200,7 +200,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.11.2 -test -test-full -verify-sig
+   * 1.12.0 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -228,7 +228,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.8.2 unicode -examples -static-libs -test
+   * 2.8.3 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -392,7 +392,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.1 -test -verify-provenance
+   * 4.11.2 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
