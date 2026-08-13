@@ -64,7 +64,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
    * 1.4.32 -doc -emacs -vim-syntax
 * app-admin/metalog: Highly configurable replacement for syslogd/klogd 
-   * 20260221 unicode zlib
+   * 20260811 unicode zlib
 * app-admin/perl-cleaner: User land tool for cleaning up old perl installs 
    * 2.31-r3 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
@@ -346,7 +346,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
-   * 3.4.9 native-extensions -debug -test -verify-provenance
+   * 3.5.0 native-extensions -debug -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
    * 3.2.9 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.31.0 -test
+   * 1.32.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.18 -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
@@ -403,6 +403,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.2.1 -test -verify-provenance
+* dev-python/tomlkit: Style preserving TOML library 
+   * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.6.1.19 -test -verify-provenance
 * dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
@@ -412,7 +414,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
    * 2.2.4 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
-   * 0.47.0 -test -verify-provenance
+   * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
@@ -466,9 +468,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.14-r1 dhcp -systemd
 * net-misc/openssh: Port of OpenBSD's free SSH release 
-   * 10.4_p1-r1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
+   * 10.5_p1 pam ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
-   * 3.4.4 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
+   * 3.5.0 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
    * 1.25.0-r2 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
@@ -522,7 +524,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/sed: Super-useful stream editor 
    * 4.10-r1 acl nls xattr -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
-   * 4.20.0 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
+   * 4.20.2 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * sys-apps/systemd-utils: Utilities split out from systemd for OpenRC users 
    * 260.1-r1 acl kmod sysctl tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sys-apps/sysvinit: /sbin/init - parent of all processes 
@@ -590,7 +592,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-process/psmisc: A set of tools that use the proc filesystem 
    * 23.7 nls -X -apparmor -selinux -test -verify-sig
 * virtual/acl: Virtual for acl support (sys/acl.h) 
-   * 0-r2 -static-libs
+   * 2.4.0 -static-libs
 * virtual/dev-manager: Virtual for the device filesystem manager 
    * 0-r2 
 * virtual/editor: Virtual for editor 
@@ -681,4 +683,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 337 matches
+Found 338 matches
