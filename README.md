@@ -392,7 +392,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.2 -test -verify-provenance
+   * 4.11.3 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -492,7 +492,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/findutils: GNU utilities for finding files 
    * 4.11.0 nls -selinux -static -test -test-full -verify-sig
 * sys-apps/gawk: GNU awk pattern-matching language 
-   * 5.4.1 mpfr nls readline -pma -verify-sig
+   * 5.4.1-r1 mpfr nls readline -pma -verify-sig
 * sys-apps/gentoo-functions: Base functions required by all Gentoo systems 
    * 1.7.7 -test
 * sys-apps/grep: GNU regular expression matcher 
@@ -570,7 +570,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.43-r2 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.43-r3 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
