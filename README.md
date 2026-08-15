@@ -98,7 +98,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35-r1 acl nls xattr -minimal -selinux -test -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
-   * 6.0_p29-r2 bzip2 unicode -natspec
+   * 6.0_p31 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
    * 5.8.3 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
@@ -240,7 +240,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
-   * 3.7.1 exec-static-trampoline -debug -pax-kernel -static-libs -test
+   * 3.8.0 exec-static-trampoline -debug -pax-kernel -static-libs -test
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
    * 1.12.2 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
@@ -274,7 +274,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.2 all-impls -test -tools
+   * 4.6.7 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
