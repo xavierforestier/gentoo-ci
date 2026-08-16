@@ -341,12 +341,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.490.0-r1 -test
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
-* dev-python/ast-serialize: Python bindings for mypy AST serialization 
-   * 0.8.0 -debug -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
-   * 3.5.0 native-extensions -debug -test -verify-provenance
+   * 3.5.1 -debug -native-extensions -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
    * 3.2.9 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
@@ -375,18 +373,12 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 4.3.0 -test
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
-* dev-python/librt: Mypyc runtime library 
-   * 0.15.0 -debug -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.1 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.1.0 -doc
-* dev-python/mypy: Optional static typing for Python 
-   * 2.3.0 -debug -native-extensions -test
-* dev-python/mypy-extensions: Type system extensions for programs checked with mypy 
-   * 1.1.0 -test
 * dev-python/packaging: Core utilities for Python packages 
    * 26.3 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
@@ -407,8 +399,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.6.1.19 -test -verify-provenance
-* dev-python/typing-extensions: Backported and Experimental Type Hints for Python 3.7+ 
-   * 4.16.0 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.7.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
@@ -419,8 +409,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
-* dev-util/maturin: Build and publish crates with pyo3, rust-cpython and cffi bindings 
-   * 1.14.1 ssl -debug -doc -test
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.19.1 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
@@ -683,4 +671,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2025.1 -test
-Found 338 matches
+Found 332 matches
