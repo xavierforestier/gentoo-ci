@@ -450,7 +450,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/curl: A Client that groks URLs 
    * 8.21.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
-   * 10.5.0 embedded ipv6 udev -debug -privsep -verify-sig
+   * 10.5.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
    * 20250605-r4 arping caps filecaps nls suid -clockdiff -doc -idn -test -tracepath -verify-sig
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
