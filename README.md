@@ -506,7 +506,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63.3 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.81.3 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.82 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
