@@ -92,7 +92,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/bzip2: A high-quality data compressor used extensively by Gentoo Linux 
    * 1.0.8-r5 -static -static-libs -verify-sig
 * app-arch/gzip: Standard GNU compressor 
-   * 1.14 -pic -static -verify-sig
+   * 1.14-r1 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
    * 3.8.9 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
@@ -210,7 +210,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 9.0.0 -doc -test
 * dev-db/sqlite: SQL database engine 
-   * 3.53.3 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
+   * 3.53.4 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
@@ -270,11 +270,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.6.3 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.6.4 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.7 all-impls -test -tools
+   * 4.6.9 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -346,7 +346,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.5.1 -debug -native-extensions -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.2.9 -debug -test -test-full
+   * 3.3.0 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -356,7 +356,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
-   * 20 -test
+   * 22 -test
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.3 -test -verify-provenance
+   * 4.11.5 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -412,7 +412,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.19.1 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
-   * 3.0.5 native-symlinks
+   * 3.0.6 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.7.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.8.1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -506,7 +506,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.63.3 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.82 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.82.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.49 nnp
 * sys-apps/sed: Super-useful stream editor 
@@ -558,7 +558,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.43-r3 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.43-r4 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
