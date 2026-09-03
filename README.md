@@ -374,7 +374,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/jinja2: A full-featured template engine for Python 
    * 3.1.6 -doc -test -verify-provenance
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
-   * 6.1.2 threads -debug -doc -examples -test
+   * 6.1.3 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.3 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
