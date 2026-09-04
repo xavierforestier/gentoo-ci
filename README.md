@@ -222,7 +222,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
-   * 1.97.1 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
+   * 1.98.1 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -274,7 +274,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.9 all-impls -test -tools
+   * 4.6.10 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -394,7 +394,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
-   * 10.2.2 -test -verify-provenance
+   * 10.2.3 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.7.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.3.2 -test -verify-provenance
+   * 2.3.4 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
