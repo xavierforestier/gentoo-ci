@@ -256,7 +256,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libuv: Cross-platform asynchronous I/O 
    * 1.52.1 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
-   * 2.15.3 readline -doc -icu -python -static-libs -test
+   * 2.15.4 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
@@ -520,7 +520,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
-   * 2.42.2 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
+   * 2.42.3 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
 * sys-auth/pam_xdg: PAM module that manages XDG Base Directories 
