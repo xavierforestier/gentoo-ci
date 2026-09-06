@@ -412,7 +412,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
    * 0.19.1 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
-   * 3.0.6 native-symlinks
+   * 3.0.7 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
