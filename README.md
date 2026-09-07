@@ -248,7 +248,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
    * 1.8.1 -static-libs -verify-sig
 * dev-libs/libpcre2: Perl-compatible regular expression library 
-   * 10.47 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
+   * 10.48 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * dev-libs/libtasn1: ASN.1 library 
    * 4.21.0 -static-libs -verify-sig
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
@@ -460,7 +460,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/rsync: File transfer program to keep remote files into sync 
    * 3.5.0 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
-   * 1.25.0-r2 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
+   * 1.25.0-r3 nls pcre psl ssl zlib -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
    * 0.231.200 -test
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
