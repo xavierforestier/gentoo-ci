@@ -448,7 +448,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.21.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.22.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.5.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
