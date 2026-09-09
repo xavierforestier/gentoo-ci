@@ -192,7 +192,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.5.3 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.3.4 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.5 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.34.0 
 * dev-build/libtool: A shared library tool for developers 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.7 -test -verify-provenance
+   * 4.11.8 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
