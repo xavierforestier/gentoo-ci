@@ -100,7 +100,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/unzip: unzipper for pkzip-compressed files 
    * 6.0_p31 bzip2 unicode -natspec
 * app-arch/xz-utils: Utils for managing LZMA compressed files 
-   * 5.8.3 extra-filters nls -doc -pgo -static-libs -verify-sig
+   * 5.8.4 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
@@ -490,7 +490,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
    * 0.13 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
-   * 7.0.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
+   * 7.2.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
    * 2.10.0 bzip2 nls pam zlib -lzma -selinux -test -xkb -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
@@ -508,7 +508,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.82.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
-   * 2.49 nnp
+   * 2.51 nnp
 * sys-apps/sed: Super-useful stream editor 
    * 4.10-r1 acl nls xattr -selinux -static -test-full -verify-sig
 * sys-apps/shadow: Utilities to deal with user accounts 
