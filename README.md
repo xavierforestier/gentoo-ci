@@ -106,7 +106,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.22 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
-   * 2.1.2 -common-lisp -static-libs -test -verify-sig
+   * 2.2.0 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
@@ -148,7 +148,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/elt-patches: Collection of patches for libtool.eclass 
    * 20250718 
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
-   * 20.13 gpg -pretty-log -test -tools
+   * 20.14 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.8.1 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
@@ -194,7 +194,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/cmake: Cross platform Make 
    * 4.3.5 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
-   * 1.34.0 
+   * 1.36.1 
 * dev-build/libtool: A shared library tool for developers 
    * 2.5.4 -vanilla
 * dev-build/make: Standard tool to compile source trees 
@@ -242,7 +242,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
    * 3.8.0 exec-static-trampoline -debug -pax-kernel -static-libs -test
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
-   * 1.12.3-r1 asm getentropy -doc -static-libs -verify-sig
+   * 1.12.4 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.61 nls -common-lisp -static-libs -test -verify-sig
 * dev-libs/libksba: X.509 and CMS (PKCS#7) library 
@@ -350,7 +350,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.1.2 test-rust -test
+   * 26.2.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 4.0.2 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -572,7 +572,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p3 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026c nls -leaps-timezone -zic-slim
+   * 2026d nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
