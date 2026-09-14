@@ -394,7 +394,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
-   * 10.2.3 -test -verify-provenance
+   * 10.3.0 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.7.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.3.4 -test -verify-provenance
+   * 2.4.0 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
