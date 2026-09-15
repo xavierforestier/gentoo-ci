@@ -394,7 +394,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
-   * 10.3.0 -test -verify-provenance
+   * 10.3.2 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
