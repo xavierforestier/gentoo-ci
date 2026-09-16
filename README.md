@@ -156,7 +156,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p15 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p20 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -356,7 +356,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
-   * 22 -test
+   * 23 -test
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
@@ -400,7 +400,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.6.1.19 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
-   * 2.7.0 -brotli -http2 -test -verify-provenance -zstd
+   * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
    * 2.4.0 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
@@ -504,7 +504,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
-   * 0.63.3 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
+   * 0.64 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.82.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
@@ -570,7 +570,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/pam: Linux-PAM (Pluggable Authentication Modules) 
    * 1.7.2 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
 * sys-libs/readline: Another cute console display library 
-   * 8.3_p3 unicode -static-libs -utils -verify-sig
+   * 8.3_p6 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
    * 2026d nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
