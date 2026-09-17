@@ -352,7 +352,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
    * 26.2.1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
-   * 4.0.2 -test -verify-provenance
+   * 4.1.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.8 -test -verify-provenance
+   * 4.11.9 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.4.0 -test -verify-provenance
+   * 2.4.1 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.8.2 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.8.2-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
