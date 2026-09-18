@@ -226,7 +226,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.195 bzip2 debuginfod libarchive lzma nls utils -stacktrace -static-libs -test -valgrind -verify-sig -zstd
+   * 0.196 bzip2 debuginfod libarchive lzma nls utils -libpfm -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.8.4 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
@@ -362,7 +362,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatchling: Modern, extensible Python build backend 
    * 1.32.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
-   * 3.19 -test -verify-provenance
+   * 3.20 -test -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
    * 1.0.1 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.8.2-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.8.2-r2 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
