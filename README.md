@@ -186,9 +186,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/autoconf-wrapper: Wrapper for autoconf to manage multiple autoconf versions 
    * 20260320 
 * dev-build/automake: Used to generate Makefile.in from Makefile.am 
-   * 1.18.1-r1 -test -verify-sig
+   * 1.19 -test -verify-sig
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
-   * 20250528 
+   * 20260920 
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.5.3 -examples
 * dev-build/cmake: Cross platform Make 
@@ -196,7 +196,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.36.1 
 * dev-build/libtool: A shared library tool for developers 
-   * 2.5.4 -vanilla
+   * 2.6.2 -vanilla -verify-sig
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
@@ -584,7 +584,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/dev-manager: Virtual for the device filesystem manager 
    * 0-r2 
 * virtual/editor: Virtual for editor 
-   * 0-r7 
+   * 0-r8 
 * virtual/fortran: Virtual for Fortran Compiler 
    * 0-r1 openmp
 * virtual/libc: Virtual for the C library 
