@@ -92,7 +92,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/bzip2: A high-quality data compressor used extensively by Gentoo Linux 
    * 1.0.8-r5 -static -static-libs -verify-sig
 * app-arch/gzip: Standard GNU compressor 
-   * 1.14-r1 -pic -static -verify-sig
+   * 1.15 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
    * 3.8.9 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
@@ -360,7 +360,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.32.0 -test
+   * 1.32.4 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.20 -test -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
