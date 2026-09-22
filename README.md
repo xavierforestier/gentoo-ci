@@ -148,7 +148,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/elt-patches: Collection of patches for libtool.eclass 
    * 20250718 
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
-   * 20.14 gpg -pretty-log -test -tools
+   * 20.15 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
    * 0.8.1 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
@@ -274,7 +274,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.10 all-impls -test -tools
+   * 4.6.11 all-impls -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.11 -test -verify-provenance
+   * 4.11.12 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -398,7 +398,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/tomlkit: Style preserving TOML library 
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
-   * 2026.6.1.19 -test -verify-provenance
+   * 2026.9.21.13 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.8.2-r2 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.9.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
