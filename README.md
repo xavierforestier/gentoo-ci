@@ -104,7 +104,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.22 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.23 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.2.0 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -226,9 +226,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.196 bzip2 debuginfod libarchive lzma nls utils -libpfm -static-libs -test -valgrind -verify-sig -zstd
+   * 0.196-r1 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.8.4 unicode -examples -static-libs -test
+   * 2.8.5 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -458,7 +458,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.5_p1 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
-   * 3.5.0 acl iconv ssl xattr xxhash -examples -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
+   * 3.5.1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
    * 1.25.0-r3 nls pcre psl ssl zlib -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
@@ -496,7 +496,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
    * 34.2 lzma tools zlib zstd -debug -doc -pkcs7
 * sys-apps/less: Excellent text file viewer 
-   * 704 pcre -test -verify-sig
+   * 710 pcre -test -verify-sig
 * sys-apps/locale-gen: Generate locales based upon the config file /etc/locale.gen 
    * 3.10 
 * sys-apps/lsb-release: LSB version query program 
@@ -504,7 +504,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
-   * 0.64 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
+   * 0.64.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.82.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
