@@ -104,7 +104,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.23 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.24 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.2.0 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -394,7 +394,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools: Collection of extensions to Distutils 
    * 84.0.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
-   * 10.3.2 -test -verify-provenance
+   * 10.3.4 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
    * 0.15.1 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.4.1 -test -verify-provenance
+   * 2.5.0 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.9.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
+   * 26.10.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
