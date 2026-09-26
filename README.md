@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.11.12 -test -verify-provenance
+   * 4.11.15 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
