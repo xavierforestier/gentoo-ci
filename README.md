@@ -200,7 +200,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/make: Standard tool to compile source trees 
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
-   * 1.12.0 -test -test-full -verify-sig
+   * 1.12.1 -test -test-full -verify-sig
 * dev-build/meson-format-array: Format shell expressions into a meson array 
    * 0 
 * dev-build/ninja: A small build system similar to make 
@@ -538,7 +538,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/flex: The Fast Lexical Analyzer 
    * 2.6.4-r6 nls -static -test
 * sys-devel/gcc: The GNU Compiler Collection 
-   * 16.2.0 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
+   * 16.2.1_p20260926 cet cxx default-stack-clash-protection default-znow fortran nls openmp pie sanitize ssp zstd -ada -algol68 -cobol -custom-cflags -d -debug -doc -fixed-point -go -graphite -hardened -ieee-long-double -jit -libgdiagnostics -libssp -lto -modula2 -multilib -objc -objc++ -objc-gc -pch -pgo -rust -systemtap -test -time64 -valgrind -vanilla -vtv
 * sys-devel/gcc-config: Utility to manage compilers 
    * 2.12.2 cc-wrappers native-symlinks
 * sys-devel/gettext: GNU locale utilities 
