@@ -270,7 +270,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.6.4 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 3.6.5 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.12.1 -test -verify-provenance
+   * 4.12.2 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -416,7 +416,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.55.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
+   * 2.56.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -558,7 +558,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.43-r4 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.44-r3 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -old-kernel -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
@@ -572,7 +572,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p6 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026d nls -leaps-timezone -verify-sig -zic-slim
+   * 2026e nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
