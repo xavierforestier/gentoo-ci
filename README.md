@@ -376,7 +376,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/lxml: A Pythonic binding for the libxml2 and libxslt libraries 
    * 6.1.3 threads -debug -doc -examples -test
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
-   * 3.0.3 native-extensions -debug -test -verify-provenance
+   * 3.0.4 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.1.0 -doc
 * dev-python/packaging: Core utilities for Python packages 
@@ -410,7 +410,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
-   * 0.19.1 
+   * 0.19.2 -test
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
    * 3.0.7 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
@@ -434,7 +434,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libnsl: Public client interface for NIS(YP) in a IPv6 ready version 
    * 2.0.1 -static-libs
 * net-libs/libpsl: C library for the Public Suffix List 
-   * 0.21.5 idn -icu -static-libs -test
+   * 0.23.3 idn -icu -static-libs -test
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
