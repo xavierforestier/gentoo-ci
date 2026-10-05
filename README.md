@@ -208,7 +208,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 9.0.0 -doc -test
+   * 9.2.1 -atomic-base64 -doc -test
 * dev-db/sqlite: SQL database engine 
    * 3.53.4 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.12.2 -test -verify-provenance
+   * 4.12.3 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -670,5 +670,5 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
-   * 2025.1 -test
+   * 2026.1 -test
 Found 332 matches
