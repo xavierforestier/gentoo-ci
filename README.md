@@ -208,7 +208,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 9.2.1 -atomic-base64 -doc -test
+   * 9.2.1 atomic-base64 -doc -test
 * dev-db/sqlite: SQL database engine 
    * 3.53.4 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
@@ -228,7 +228,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.196-r1 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.8.5 unicode -examples -static-libs -test
+   * 2.9.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -444,7 +444,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.10.0-r2 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 26.10.0-r3 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -506,7 +506,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.64.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.82.2 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.82.2-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.51 nnp
 * sys-apps/sed: Super-useful stream editor 
