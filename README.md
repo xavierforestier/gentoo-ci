@@ -224,7 +224,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/rust-bin: Systems programming language from Mozilla 
    * 1.98.1 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
-   * 1.90.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
+   * 1.91.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.196-r1 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
@@ -402,7 +402,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
    * 2.8.0 -brotli -http2 -test -verify-provenance -zstd
 * dev-python/vcs-versioning: Core VCS versioning functionality from setuptools-scm 
-   * 2.5.0 -test -verify-provenance
+   * 2.6.0 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
@@ -456,7 +456,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.14-r1 dhcp -systemd
 * net-misc/openssh: Port of OpenBSD's free SSH release 
-   * 10.5_p1 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
+   * 10.6_p1 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
    * 3.5.1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
