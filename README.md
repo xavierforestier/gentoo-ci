@@ -226,7 +226,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.91.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.196-r1 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -valgrind -verify-sig -zstd
+   * 0.196-r2 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.9.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
@@ -384,7 +384,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.12.3 -test -verify-provenance
+   * 4.12.4 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
