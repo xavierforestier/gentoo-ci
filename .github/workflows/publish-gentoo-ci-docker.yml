@@ -5,7 +5,7 @@ name: Create and publish a Docker image for CI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "3 2 * * *" 
+    - cron: "37 17 * * *" 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: "xavierforestier/gentoo-ci"
