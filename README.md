@@ -49,17 +49,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0-r3 
 * acct-group/video: System group: video 
    * 0-r3 
-* acct-user/mail: Mail program user 
    * 0-r3 
-* acct-user/nullmail: A user for the nullmailer 
    * 0-r2 
-* acct-user/portage: System user: portage 
    * 0-r4 
-* acct-user/postmaster: Postmaster user 
    * 0-r3 
-* acct-user/root: System user: root 
    * 0-r3 
-* acct-user/sshd: User for ssh 
    * 0-r3 
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
    * 1.4.32 -doc -emacs -vim-syntax
@@ -68,7 +62,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-admin/perl-cleaner: User land tool for cleaning up old perl installs 
    * 2.31-r3 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
-   * 1.9.17_p2 nls pam secure-path sendmail ssl -gcrypt -ldap -offensive -sasl -selinux -skey -sssd -verify-sig
+   * 1.9.17_p2-r1 nls pam secure-path sendmail ssl -gcrypt -ldap -offensive -sasl -selinux -skey -sssd -verify-sig
 * app-alternatives/awk: /bin/awk and /usr/bin/awk symlinks 
    * 4 gawk -busybox -mawk -nawk -split-usr
 * app-alternatives/bzip2: bzip2 symlink 
@@ -274,7 +268,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 4.6.11 all-impls -test -tools
+   * 5.0.3 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -444,7 +438,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.10.0-r3 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 26.11.1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
