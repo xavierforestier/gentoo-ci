@@ -144,13 +144,13 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-portage/gemato: Stand-alone Manifest generation & verification tool 
    * 20.15 gpg -pretty-log -test -tools
 * app-portage/gentoolkit: Collection of administration scripts for Gentoo 
-   * 0.8.1 -test
+   * 0.8.2 -test
 * app-portage/getuto: Standalone Gentoo gpg trust anchor generation tool for binpkgs 
    * 2.0 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
 * app-shells/bash: The standard GNU Bourne again shell 
-   * 5.3_p20 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
+   * 5.3_p20-r1 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
@@ -378,7 +378,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.12.4 -test -verify-provenance
+   * 4.13.0 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.6.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -500,7 +500,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.64.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.82.2-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.83 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.51 nnp
 * sys-apps/sed: Super-useful stream editor 
