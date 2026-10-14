@@ -268,7 +268,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 5.0.3 all-impls -nan -test -tools
+   * 5.0.4 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -358,7 +358,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.20 -test -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
-   * 1.0.1 -test -verify-provenance
+   * 1.1.0 -test -verify-provenance
 * dev-python/jaraco-context: Context managers by jaraco 
    * 6.1.2 -test
 * dev-python/jaraco-functools: Additional functions used by other projects by developer jaraco 
@@ -438,7 +438,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.11.1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 26.11.1-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
