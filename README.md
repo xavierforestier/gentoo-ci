@@ -438,11 +438,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.11.1-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 26.12.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.22.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.23.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.5.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
@@ -552,7 +552,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
-   * 2.44-r3 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -old-kernel -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
+   * 2.44-r4 cet multiarch ssp static-libs -audit -caps -clang -compile-locales -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib -multilib-bootstrap -nscd -old-kernel -perl -profile -selinux -sframe -stack-realign -suid -systemd -systemtap -test -vanilla -verify-sig
 * sys-libs/libcap: POSIX 1003.1e capabilities 
    * 2.78 pam -static-libs -tools
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
