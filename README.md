@@ -88,7 +88,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/gzip: Standard GNU compressor 
    * 1.15 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
-   * 3.8.9 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
+   * 3.8.10 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35-r1 acl nls xattr -minimal -selinux -test -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
@@ -268,7 +268,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 5.0.4 all-impls -nan -test -tools
+   * 5.0.5 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -372,7 +372,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/markupsafe: Implements a XML/HTML/XHTML Markup safe string for Python 
    * 3.0.4 native-extensions -debug -test -verify-provenance
 * dev-python/more-itertools: More routines for operating on iterables, beyond itertools 
-   * 11.1.0 -doc
+   * 11.2.1 -doc
 * dev-python/packaging: Core utilities for Python packages 
    * 26.3 -test -verify-provenance
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
@@ -500,7 +500,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
    * 0.64.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
-   * 3.0.83 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
+   * 3.0.83-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
    * 2.51 nnp
 * sys-apps/sed: Super-useful stream editor 
