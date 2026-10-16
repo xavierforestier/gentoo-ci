@@ -378,9 +378,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.13.0 -test -verify-provenance
+   * 4.13.3 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
-   * 1.6.0 -test -verify-provenance
+   * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
 * dev-python/requests: HTTP library for human beings 
@@ -390,7 +390,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.3.4 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
-   * 0.15.1 -test
+   * 0.15.2 -test
 * dev-python/trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.9.21.13 -test -verify-provenance
 * dev-python/urllib3: HTTP library with thread-safe connection pooling, file post, and more 
