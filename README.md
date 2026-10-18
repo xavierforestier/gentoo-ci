@@ -204,7 +204,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 9.2.1 atomic-base64 -doc -test
 * dev-db/sqlite: SQL database engine 
-   * 3.53.4 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
+   * 3.54.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
@@ -378,7 +378,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.13.3 -test -verify-provenance
+   * 4.13.4 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
