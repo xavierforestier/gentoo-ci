@@ -248,7 +248,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
    * 1.4.2 -doc -static-libs
 * dev-libs/libuv: Cross-platform asynchronous I/O 
-   * 1.52.1 -verify-sig
+   * 1.53.0 -verify-sig
 * dev-libs/libxml2: XML C parser and toolkit 
    * 2.15.4 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
@@ -378,7 +378,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.13.4 -test -verify-provenance
+   * 4.13.5 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
