@@ -82,7 +82,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-alternatives/yacc: yacc symlinks 
    * 1-r2 bison -byacc -reference
 * app-arch/brotli: Generic-purpose lossless compression algorithm 
-   * 1.2.0-r1 -debug -python -test
+   * 1.2.1 -debug -python -test
 * app-arch/bzip2: A high-quality data compressor used extensively by Gentoo Linux 
    * 1.0.8-r5 -static -static-libs -verify-sig
 * app-arch/gzip: Standard GNU compressor 
@@ -210,8 +210,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.8 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
-   * 3.15.0 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.9 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.15.1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -345,7 +345,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.2.1 test-rust -test
+   * 26.2.2 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 4.1.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -387,7 +387,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 84.2.0 -test
+   * 84.2.1 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.3.4 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
