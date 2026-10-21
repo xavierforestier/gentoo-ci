@@ -130,7 +130,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
 * app-misc/ca-certificates: Common CA Certificates PEM files 
-   * 20260601.3.112.5 -cacert
+   * 20260816.3.131.1 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
 * app-misc/mime-types: Provides /etc/mime.types file 
@@ -211,6 +211,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
    * 3.14.8 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.15.0 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -220,7 +221,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.91.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
-   * 0.196-r2 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
+   * 0.197 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
    * 2.9.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
@@ -386,7 +387,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
-   * 84.0.0 -test
+   * 84.2.0 -test
 * dev-python/setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.3.4 -test -verify-provenance
 * dev-python/tomlkit: Style preserving TOML library 
