@@ -345,7 +345,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.2.2 test-rust -test
+   * 26.2.2-r1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 4.1.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
