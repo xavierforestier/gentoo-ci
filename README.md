@@ -404,8 +404,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.3 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
-* dev-util/patchelf: Small utility to modify the dynamic linker and RPATH of ELF executables 
-   * 0.19.2 -test
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
    * 3.0.7 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
@@ -415,7 +413,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
-   * 1.34.8 -static-libs -test -verify-sig
+   * 1.34.9 -static-libs -test -verify-sig
 * net-dns/libidn2: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893) 
    * 2.3.8 nls -static-libs -verify-sig
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
@@ -439,7 +437,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.25.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.12.0 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+   * 26.12.1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
@@ -666,4 +664,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2026.1 -test
-Found 332 matches
+Found 331 matches
