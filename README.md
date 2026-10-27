@@ -269,7 +269,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 5.0.5 all-impls -nan -test -tools
+   * 5.0.6 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
