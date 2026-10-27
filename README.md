@@ -98,7 +98,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
-   * 2.5.24-r1 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
+   * 2.5.24-r2 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
    * 2.2.0 -common-lisp -static-libs -test -verify-sig
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
@@ -202,7 +202,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 9.2.1 atomic-base64 -doc -test
+   * 9.3.2 -doc -test
 * dev-db/sqlite: SQL database engine 
    * 3.54.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
@@ -210,8 +210,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.9 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
-   * 3.15.1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.10 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.15.2 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -227,7 +227,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
-   * 0.19-r2 -static-libs -test -threads
+   * 0.19-r3 -static-libs -test -threads
 * dev-libs/jsoncpp: C++ JSON reader and writer 
    * 1.9.8 -doc -test
 * dev-libs/leancrypto: Lean cryptographic library usable for bare-metal environments 
@@ -409,7 +409,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.56.0 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
+   * 2.56.0-r1 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -441,7 +441,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
 * net-misc/curl: A Client that groks URLs 
-   * 8.23.0 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
+   * 8.23.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
    * 10.5.2 embedded ipv6 udev -debug -privsep -verify-sig
 * net-misc/iputils: Network monitoring tools including ping and ping6 
@@ -593,7 +593,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * virtual/mta: Virtual for Message Transfer Agents 
    * 1-r2 
 * virtual/openssh: Virtual for net-misc/openssh and variants 
-   * 0-r1 ssl
+   * 0-r2 ssl
 * virtual/os-headers: Virtual for operating system headers 
    * 0-r2 
 * virtual/package-manager: Virtual for the package manager 
