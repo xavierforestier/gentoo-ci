@@ -88,7 +88,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-arch/gzip: Standard GNU compressor 
    * 1.15 -pic -static -verify-sig
 * app-arch/libarchive: Multi-format archive and compression library 
-   * 3.8.10 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
+   * 3.8.11 acl bzip2 e2fsprogs iconv lzma xattr zstd -blake2 -expat -lz4 -lzo -nettle -static-libs -test -verify-sig
 * app-arch/tar: Use this to make tarballs :) 
    * 1.35-r1 acl nls xattr -minimal -selinux -test -verify-sig
 * app-arch/unzip: unzipper for pkzip-compressed files 
@@ -269,7 +269,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 5.0.6 all-impls -nan -test -tools
+   * 5.1.0 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -347,7 +347,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
    * 26.2.2-r1 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
-   * 4.1.0 -test -verify-provenance
+   * 4.2.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
    * 1 
 * dev-python/gpep517: A backend script to aid installing Python packages in Gentoo 
@@ -355,7 +355,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/hatch-vcs: Hatch plugin for versioning with your preferred VCS 
    * 0.5.0 -test
 * dev-python/hatchling: Modern, extensible Python build backend 
-   * 1.32.4 -test
+   * 1.33.0 -test
 * dev-python/idna: Internationalized Domain Names in Applications (IDNA) 
    * 3.20 -test -verify-provenance
 * dev-python/installer: A library for installing Python wheels 
@@ -379,7 +379,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.13.5 -test -verify-provenance
+   * 4.14.0 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -401,7 +401,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
 * dev-util/debugedit: Create debuginfo and source file distributions 
-   * 5.3 -test -verify-sig
+   * 5.4 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
