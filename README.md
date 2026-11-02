@@ -58,7 +58,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
    * 1.4.32 -doc -emacs -vim-syntax
 * app-admin/metalog: Highly configurable replacement for syslogd/klogd 
-   * 20260811 unicode zlib
+   * 20260902 unicode zlib
 * app-admin/perl-cleaner: User land tool for cleaning up old perl installs 
    * 2.31-r3 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
@@ -104,7 +104,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * app-crypt/libmd: Message Digest functions from BSD systems 
-   * 1.2.0 -verify-sig
+   * 1.3.0 -verify-sig
 * app-crypt/pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.3 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -selinux -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
@@ -112,7 +112,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 30.2 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
-   * 9.2 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+   * 9.3 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -184,7 +184,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
    * 20260920 
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
-   * 5.5.3 -examples
+   * 5.6.1 -examples
 * dev-build/cmake: Cross platform Make 
    * 4.3.5 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
@@ -202,7 +202,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 9.3.2 -doc -test
+   * 9.3.3 -doc -test
 * dev-db/sqlite: SQL database engine 
    * 3.54.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
@@ -219,7 +219,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/rust-bin: Systems programming language from Mozilla 
    * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
-   * 1.91.0-r2 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
+   * 1.91.0-r3 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.197 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
@@ -565,7 +565,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/readline: Another cute console display library 
    * 8.3_p6 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
-   * 2026e nls -leaps-timezone -verify-sig -zic-slim
+   * 2026f nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.3.2-r1 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
