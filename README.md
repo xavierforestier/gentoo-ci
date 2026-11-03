@@ -210,8 +210,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.10 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
-   * 3.15.2 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.10_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.15.2_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
@@ -223,7 +223,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.197 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
 * dev-libs/expat: Stream-oriented XML parser library 
-   * 2.9.0 unicode -examples -static-libs -test
+   * 2.10.0 unicode -examples -static-libs -test
 * dev-libs/gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * dev-libs/json-c: A JSON implementation in C 
@@ -265,11 +265,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
-   * 3.6.5 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+   * 4.1.0 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
-   * 5.1.0 all-impls -nan -test -tools
+   * 5.1.1 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.3-r2 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
@@ -341,7 +341,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
    * 3.5.2 -debug -native-extensions -test -verify-provenance
 * dev-python/cython: A Python to C compiler 
-   * 3.3.0 -debug -test -test-full
+   * 3.3.1 -debug -test -test-full
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
@@ -431,7 +431,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/libtirpc: Transport Independent RPC library (SunRPC replacement) 
    * 1.3.7-r2 -kerberos -static-libs
 * net-libs/nghttp2: HTTP/2 C Library 
-   * 1.70.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
+   * 1.71.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
    * 1.18.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
@@ -541,7 +541,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-devel/m4: GNU macro processor 
    * 1.4.21 nls -examples -verify-sig
 * sys-devel/patch: Utility to apply diffs to files 
-   * 2.8-r1 xattr -static -test -verify-sig
+   * 2.8.1 xattr -static -test -verify-sig
 * sys-fs/e2fsprogs: Standard EXT2/EXT3/EXT4 filesystem utilities 
    * 1.47.4 nls tools -archive -cron -fuse -static-libs -test -verify-sig
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
