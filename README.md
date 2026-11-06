@@ -130,7 +130,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
 * app-misc/ca-certificates: Common CA Certificates PEM files 
-   * 20260816.3.131.1 -cacert
+   * 20260816.3.131.1-r1 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
 * app-misc/mime-types: Provides /etc/mime.types file 
@@ -345,7 +345,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * dev-python/ensurepip-pip: Shared pip wheel for ensurepip Python module 
-   * 26.2.2-r1 test-rust -test
+   * 26.3 test-rust -test
 * dev-python/flit-core: Simplified packaging of Python modules (core module) 
    * 4.2.0 -test -verify-provenance
 * dev-python/gentoo-common: Common files shared by Python implementations in Gentoo 
@@ -433,9 +433,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-libs/nghttp2: HTTP/2 C Library 
    * 1.71.0 -debug -hpack-tools -systemd -test -utils -verify-sig -xml
 * net-libs/nghttp3: HTTP/3 library written in C 
-   * 1.18.0 -verify-sig
+   * 1.19.0 -verify-sig
 * net-libs/ngtcp2: Implementation of the IETF QUIC Protocol 
-   * 1.25.0 openssl ssl -gnutls -verify-sig
+   * 1.26.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 26.12.1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
 * net-mail/mailbase: MTA layout package 
@@ -449,7 +449,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/netifrc: Gentoo Network Interface Management Scripts 
    * 0.7.14-r1 dhcp -systemd
 * net-misc/openssh: Port of OpenBSD's free SSH release 
-   * 10.6_p1 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
+   * 10.6_p2 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
    * 3.5.1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
@@ -483,7 +483,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/install-xattr: Wrapper to coreutils install to preserve Filesystem Extended Attributes 
    * 0.13 
 * sys-apps/iproute2: kernel routing and traffic control utilities 
-   * 7.2.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
+   * 7.3.0 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux
 * sys-apps/kbd: Keyboard and console utilities 
    * 2.10.0 bzip2 nls pam zlib -lzma -selinux -test -xkb -zstd
 * sys-apps/kmod: Library and tools for managing linux kernel modules 
@@ -557,17 +557,17 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/libseccomp: High level interface to Linux seccomp filter 
    * 2.6.1 -debug -python -static-libs -test -verify-sig
 * sys-libs/libxcrypt: Extended crypt library for descrypt, md5crypt, bcrypt, and others 
-   * 4.5.2 compat system -headers-only -static-libs -test
+   * 4.5.2-r1 compat system -headers-only -static-libs -test
 * sys-libs/ncurses: Console display library 
    * 6.5_p20251220 cxx tinfo -ada -debug -doc -gpm -minimal -profile -split-usr -stack-realign -static-libs -test -trace -verify-sig
 * sys-libs/pam: Linux-PAM (Pluggable Authentication Modules) 
-   * 1.7.2 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
+   * 1.7.3 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
 * sys-libs/readline: Another cute console display library 
-   * 8.3_p6 unicode -static-libs -utils -verify-sig
+   * 8.3_p6-r1 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
    * 2026f nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
-   * 1.3.2-r1 -minizip -static-libs -verify-sig
+   * 1.4 -minizip -static-libs -verify-sig
 * sys-process/procps: Standard informational utilities and process-handling tools 
    * 4.0.6 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test -verify-sig
 * sys-process/psmisc: A set of tools that use the proc filesystem 
