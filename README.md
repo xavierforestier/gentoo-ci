@@ -180,9 +180,9 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/autoconf-wrapper: Wrapper for autoconf to manage multiple autoconf versions 
    * 20260320 
 * dev-build/automake: Used to generate Makefile.in from Makefile.am 
-   * 1.19 -test -verify-sig
+   * 1.20 -test -verify-sig
 * dev-build/automake-wrapper: Wrapper for automake to manage multiple automake versions 
-   * 20260920 
+   * 20261107 
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.6.1 -examples
 * dev-build/cmake: Cross platform Make 
@@ -210,7 +210,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
    * 5.44.0 gdbm -berkdb -doc -minimal
 * dev-lang/python: An interpreted, interactive, object-oriented programming language 
-   * 3.14.10_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
+   * 3.14.10_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
    * 3.15.2_p1 ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -jit -libedit -pgo -tail-call-interp -test -tk -valgrind -verify-sig
 * dev-lang/python-exec: Python script wrapper 
    * 2.4.10 native-symlinks -test
@@ -379,7 +379,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.14.0 -test -verify-provenance
+   * 4.14.5 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -451,7 +451,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-misc/openssh: Port of OpenBSD's free SSH release 
    * 10.6_p2 pam seccomp ssl -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig
 * net-misc/rsync: File transfer program to keep remote files into sync 
-   * 3.5.1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
+   * 3.5.2-r1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
    * 1.25.0-r3 nls pcre psl ssl zlib -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
@@ -513,7 +513,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/texinfo: The GNU info program and utilities 
    * 7.3 nls standalone -static -test -verify-sig
 * sys-apps/util-linux: Various useful Linux utilities 
-   * 2.42.3 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
+   * 2.42.4 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
 * sys-auth/pam_xdg: PAM module that manages XDG Base Directories 
@@ -563,7 +563,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-libs/pam: Linux-PAM (Pluggable Authentication Modules) 
    * 1.7.3 nls -audit -berkdb -debug -elogind -examples -nis -selinux -systemd -verify-sig
 * sys-libs/readline: Another cute console display library 
-   * 8.3_p6-r1 unicode -static-libs -utils -verify-sig
+   * 8.3_p6-r2 unicode -static-libs -utils -verify-sig
 * sys-libs/timezone-data: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump) 
    * 2026f nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
