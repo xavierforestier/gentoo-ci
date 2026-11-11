@@ -110,7 +110,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
    * 1.4.6-r1 nls ssl -debug -static-libs
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
-   * 30.2 
+   * 31.1 
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
    * 9.3 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
@@ -195,8 +195,6 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 4.4.1-r102 nls -doc -guile -static -test -verify-sig
 * dev-build/meson: Open source build system 
    * 1.12.1 -test -test-full -verify-sig
-* dev-build/meson-format-array: Format shell expressions into a meson array 
-   * 0 
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
@@ -217,7 +215,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-lang/python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
-   * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -verify-sig
+   * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.91.0-r3 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -253,7 +251,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libxml2: XML C parser and toolkit 
    * 2.15.4 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
-   * 1.1.45 crypt -debug -debugger -examples -python -static-libs
+   * 1.1.45-r1 crypt -debug -debugger -examples -python -static-libs
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
    * 1.4.1 -static-libs -verify-sig
 * dev-libs/mpdecimal: Correctly-rounded arbitrary precision decimal floating point arithmetic 
@@ -271,7 +269,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/simdjson: SIMD accelerated C++ JSON library 
    * 5.1.1 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
-   * 0.8.3-r2 -static-libs
+   * 0.8.4 -static-libs
 * dev-perl/Authen-SASL: Perl SASL interface 
    * 2.200.0 -kerberos -test
 * dev-perl/Capture-Tiny: Capture STDOUT and STDERR from Perl, XS, or external programs 
@@ -409,7 +407,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
-   * 2.56.0-r1 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
+   * 2.56.1 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
 * net-dns/c-ares: C library that resolves names asynchronously 
@@ -664,4 +662,4 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.1-r1 -static-libs
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2026.1 -test
-Found 331 matches
+Found 330 matches
