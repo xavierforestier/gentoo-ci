@@ -186,7 +186,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-build/b2: A system for large project software construction, simple to use and powerful 
    * 5.6.1 -examples
 * dev-build/cmake: Cross platform Make 
-   * 4.3.5 ncurses -dap -doc -gui -test -verify-sig
+   * 4.3.6 ncurses -dap -doc -gui -test -verify-sig
 * dev-build/gtk-doc-am: Automake files from gtk-doc 
    * 1.36.1 
 * dev-build/libtool: A shared library tool for developers 
