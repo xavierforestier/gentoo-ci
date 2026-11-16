@@ -233,7 +233,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-libs/libassuan: IPC library used by GnuPG and GPGME 
    * 3.0.0-r1 -verify-sig
 * dev-libs/libffi: Portable, high level programming interface to various calling conventions 
-   * 3.8.0 exec-static-trampoline -debug -pax-kernel -static-libs -test
+   * 3.8.1 exec-static-trampoline -debug -pax-kernel -static-libs -test
 * dev-libs/libgcrypt: General purpose crypto library based on the code used in GnuPG 
    * 1.12.4 asm getentropy -doc -static-libs -verify-sig
 * dev-libs/libgpg-error: Contains error handling functions used by GnuPG software 
@@ -403,7 +403,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-util/gperf: A perfect hash function generator 
    * 3.3 
 * dev-util/pkgconf: pkg-config compatible replacement with no dependencies other than C99 
-   * 3.0.7 native-symlinks
+   * 3.0.11 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
@@ -495,7 +495,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * sys-apps/net-tools: Standard Linux networking tools 
    * 2.10 arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
 * sys-apps/openrc: OpenRC manages the services, startup and shutdown of a host 
-   * 0.64.1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
+   * 0.64.1-r1 netifrc pam sysvinit unicode -audit -bash -debug -newnet -s6 -selinux -sysv-utils
 * sys-apps/portage: The package management and distribution system for Gentoo 
    * 3.0.83-r1 ipc native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev -selinux -test
 * sys-apps/sandbox: sandbox'd LD_PRELOAD hack 
