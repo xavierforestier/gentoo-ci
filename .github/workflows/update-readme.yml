@@ -22,8 +22,6 @@ jobs:
         git config --global --add safe.directory /__w/gentoo-ci/gentoo-ci
         git fetch
         git switch main
-        pwd 
-        tree
         emerge -q app-portage/eix app-misc/yq
         eix-update
         cp README.md .header
@@ -31,7 +29,7 @@ jobs:
         rm .header
         # Get category 
         for category in $(EIX_LIMIT=0 eix -I --format '<category>\n' | grep -e '^[^\[].*' | grep -v 'Found' | sort -u | grep -v 'acct-group' | grep -v 'acct-user' ); do
-          description=$( cat "${category}/metadata.xml" | xq '.catmetadata.longdescription[] | select( ."@lang" == "en" )."#text"' | sed 's/\\n/ /g' | sed 's/\\t/ /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/"The .* category contains //g' | sed 's/\."$//g' )
+          description=$( cat "/var/db/repos/gentoo/${category}/metadata.xml" | xq '.catmetadata.longdescription[] | select( ."@lang" == "en" )."#text"' | sed 's/\\n/ /g' | sed 's/\\t/ /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/"The .* category contains //g' | sed 's/\."$//g' )
           echo "### ${category}: ${description^}" >> README.md
           EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I ${category} --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
         done        
