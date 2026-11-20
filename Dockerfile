@@ -18,6 +18,7 @@ RUN eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo
 RUN emerge --sync 
 RUN emerge -uq --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
 RUN emerge -Duq --changed-use --jobs-tmpdir-require-free-gb=0 --jobs=${JOB_COUNT} @world
+RUN emerge -q --jobs=${JOB_COUNT} net-libs/nodejs
 # upgrade python
 RUN mkdir -p /etc/portage/package.use
 # Cleanup : drop man-pages, an exotic locales
