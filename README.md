@@ -5,34 +5,7 @@
 Based on https://github.com/antonfischl1980/icinga thanks
 
 ## Provided packages
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r1 
-   * 0-r3 
-   * 0 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r2 
-   * 0-r2 
-   * 0-r3 
-   * 0-r2 
-   * 0-r2 
-   * 0 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
-   * 0-r2 
-   * 0-r4 
-   * 0-r3 
-   * 0-r3 
-   * 0-r3 
+### app-admin: Non-core applications which relate to system administration
 * app-admin/eselect: Gentoo's multi-purpose configuration and management tool 
    * 1.4.32 -doc -emacs -vim-syntax
 * app-admin/metalog: Highly configurable replacement for syslogd/klogd 
@@ -41,6 +14,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.31-r3 -pkgcore
 * app-admin/sudo: Allows users or groups to run commands as other users 
    * 1.9.17_p2-r1 nls pam secure-path sendmail ssl -gcrypt -ldap -offensive -sasl -selinux -skey -sssd -verify-sig
+Found 4 matches
+### app-alternatives: Packages providing symlinks linking different available implementations for various executables
 * app-alternatives/awk: /bin/awk and /usr/bin/awk symlinks 
    * 4 gawk -busybox -mawk -nawk -split-usr
 * app-alternatives/bzip2: bzip2 symlink 
@@ -59,6 +34,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0 gnu -libarchive -split-usr
 * app-alternatives/yacc: yacc symlinks 
    * 1-r2 bison -byacc -reference
+Found 9 matches
+### app-arch: Tools for archiving, compressing and uncompressing files or groups of files
 * app-arch/brotli: Generic-purpose lossless compression algorithm 
    * 1.2.1 -debug -python -test
 * app-arch/bzip2: A high-quality data compressor used extensively by Gentoo Linux 
@@ -75,6 +52,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.8.4 extra-filters nls -doc -pgo -static-libs -verify-sig
 * app-arch/zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
+Found 8 matches
+### app-crypt: Cryptographic (encryption, decryption, steganography and signing) software
 * app-crypt/gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.24-r2 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * app-crypt/gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
@@ -87,10 +66,14 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.3.3 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -selinux -verify-sig -wayland
 * app-crypt/rhash: Console utility and library for computing and verifying file hash sums 
    * 1.4.6-r1 nls ssl -debug -static-libs
+Found 6 matches
+### app-doc: Various miscellaneous documentation collections
 * app-doc/info-manual: Manual for the Info reader in GNU Emacs 
    * 31.1 
+### app-editors: Text editors
 * app-editors/nano: GNU GPL'd Pico clone with more functionality 
    * 9.3 ncurses nls spell unicode -debug -justify -magic -minimal -verify-sig
+### app-eselect: Modules for the eselect configuration and administration tool
 * app-eselect/eselect-iptables: Manages the {,/usr}/sbin/iptables symlink 
    * 20220320 
 * app-eselect/eselect-lib-bin-symlink: An eselect library to manage executable symlinks 
@@ -105,16 +88,25 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 15 git -mercurial -test
 * app-eselect/eselect-rust: Eselect module for management of multiple Rust versions 
    * 20210703 
+Found 7 matches
+### app-i18n: Internationalisation-related packages
 * app-i18n/gnulib-l10n: Localization for gnulib 
    * 20241231 
+### app-misc: Various miscellaneous application packages which don't belong anywhere else
 * app-misc/ca-certificates: Common CA Certificates PEM files 
    * 20260816.3.131.1-r1 -cacert
 * app-misc/editor-wrapper: Wrapper scripts that will execute EDITOR or PAGER 
    * 4-r1 
+* app-misc/jq: A lightweight and flexible command-line JSON processor 
+   * 1.8.2 oniguruma -static-libs -test
 * app-misc/mime-types: Provides /etc/mime.types file 
    * 2.1.54 -nginx
 * app-misc/pax-utils: ELF utils that can check files for security relevant properties 
    * 1.3.11 -caps -man -python -seccomp -test
+* app-misc/yq: Command-line YAML processor - jq wrapper for YAML documents 
+   * 4.4.5 yq-symlink -test
+Found 6 matches
+### app-portage: Software which works with portage or ebuilds
 * app-portage/eix: Search and query ebuilds 
    * 0.36.9 nls -debug -doc -sqlite
 * app-portage/elt-patches: Collection of patches for libtool.eclass 
@@ -127,12 +119,16 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.0 -test
 * app-portage/portage-utils: Small and fast Portage helper tools written in C 
    * 0.97.1 openmp qmanifest -static
+Found 6 matches
+### app-shells: Shells and their extensions
 * app-shells/bash: The standard GNU Bourne again shell 
    * 5.3_p20-r1 net nls readline -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig
 * app-shells/push: A POSIX shell function to treat a variable like an array, quoting args 
    * 3.4 
 * app-shells/quoter: Quote arguments or standard input for usage in POSIX shell by eval 
    * 4.2 
+Found 3 matches
+### app-text: Tools for working with human-language text files
 * app-text/build-docbook-catalog: DocBook XML catalog auto-updater 
    * 2.4 
 * app-text/docbook-xml-dtd: Docbook DTD for XML 
@@ -151,6 +147,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.11.5 
 * app-text/sgml-common: Base ISO character entities and utilities for SGML 
    * 0.6.3-r7 
+Found 8 matches
+### dev-build: "Build systems and related tools
 * dev-build/autoconf: Used to create autoconfiguration files 
    * 2.73-r2 -verify-sig
 * dev-build/autoconf-archive: GNU Autoconf Macro Archive 
@@ -175,12 +173,17 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.12.1 -test -test-full -verify-sig
 * dev-build/ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
+Found 12 matches
+### dev-cpp: Libraries and utilities relevant to the c++ programming language
 * dev-cpp/ada: WHATWG-compliant and fast URL parser written in modern C++ 
    * 4.0.0 
 * dev-cpp/simdutf: Unicode validation and transcoding at billions of characters per second 
    * 9.3.3 -doc -test
+Found 2 matches
+### dev-db: Libraries and utilities for database related programming
 * dev-db/sqlite: SQL database engine 
    * 3.54.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
+### dev-lang: Various programming language implementations and related tools
 * dev-lang/lua: A powerful light-weight programming language designed for extending applications 
    * 5.4.8 deprecated readline
 * dev-lang/perl: Larry Wall's Practical Extraction and Report Language 
@@ -194,6 +197,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.4.6 
 * dev-lang/rust-bin: Systems programming language from Mozilla 
    * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
+Found 6 matches
+### dev-libs: Various miscellaneous programming libraries
 * dev-libs/boost: Boost Libraries for C++ 
    * 1.91.0-r4 bzip2 context nls stacktrace zlib -debug -doc -icu -lzma -mpi -numpy -python -test -test-full -tools -zstd
 * dev-libs/elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
@@ -230,6 +235,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.15.4 readline -doc -icu -python -static-libs -test
 * dev-libs/libxslt: XSLT libraries and tools 
    * 1.1.45-r1 crypt -debug -debugger -examples -python -static-libs
+* dev-libs/libyaml: YAML 1.1 parser and emitter written in C 
+   * 0.2.5 -doc -static-libs -test
 * dev-libs/mpc: A library for multiprecision complex arithmetic with exact rounding 
    * 1.4.1 -static-libs -verify-sig
 * dev-libs/mpdecimal: Correctly-rounded arbitrary precision decimal floating point arithmetic 
@@ -240,6 +247,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 3.10.2 asm gmp -doc -static-libs -verify-sig
 * dev-libs/npth: New GNU Portable Threads Library 
    * 1.8 -test -verify-sig
+* dev-libs/oniguruma: Regular expression library for different character encodings 
+   * 6.9.10 -crnl-as-line-terminator -static-libs
 * dev-libs/openssl: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS) 
    * 4.1.0 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * dev-libs/popt: Parse Options - Command line parser 
@@ -248,6 +257,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 5.1.1 all-impls -nan -test -tools
 * dev-libs/xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.4 -static-libs
+Found 29 matches
+### dev-perl: Libraries and utilities relevant to the Perl programming language
 * dev-perl/Authen-SASL: Perl SASL interface 
    * 2.200.0 -kerberos -test
 * dev-perl/Capture-Tiny: Capture STDOUT and STDERR from Perl, XS, or external programs 
@@ -312,6 +323,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 0.490.0-r1 -test
 * dev-perl/YAML-Tiny: Read/Write YAML files with as little code as possible 
    * 1.760.0-r1 -minimal -test
+Found 32 matches
+### dev-python: Packages whose primary purpose is to provide Python modules, extensions and bindings, as well as tools and utilities useful for development in the Python programming language
+* dev-python/argcomplete: Bash tab completion for argparse 
+   * 3.7.2 -test -verify-provenance
 * dev-python/certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * dev-python/charset-normalizer: The Real First Universal Charset Detector 
@@ -360,6 +375,8 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
    * 1.7.1-r2 
+* dev-python/pyyaml: YAML parser and emitter for Python 
+   * 6.0.3 -debug -examples -test
 * dev-python/requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * dev-python/setuptools: Collection of extensions to Distutils 
@@ -376,6 +393,10 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.6.0 -test -verify-provenance
 * dev-python/wheel: A built-package format for Python 
    * 0.48.0 -test -verify-provenance
+* dev-python/xmltodict: Makes working with XML feel like you are working with JSON 
+   * 1.0.4 -test -verify-provenance
+Found 35 matches
+### dev-util: Various miscellaneous development utilities
 * dev-util/debugedit: Create debuginfo and source file distributions 
    * 5.4 -test -verify-sig
 * dev-util/gperf: A perfect hash function generator 
@@ -384,16 +405,23 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 3.0.11 native-symlinks
 * dev-util/re2c: Tool for generating C-based recognizers from regular expressions 
    * 3.1 -debug -test
+Found 4 matches
+### dev-vcs: Utilities focused on version control
 * dev-vcs/git: Stupid content tracker: distributed VCS designed for speed and efficiency 
    * 2.56.1 curl gpg iconv nls pcre perl rust safe-directory webdav -cgi -cvs -debug -doc -highlight -keyring -perforce -selinux -subversion -test -tk -xinetd
+### mail-mta: Mail transport agent packages
 * mail-mta/nullmailer: Simple relay-only local mail transport agent 
    * 2.2-r2 ssl -test
+### net-dns: DNS (Domain Name Service) related software
 * net-dns/c-ares: C library that resolves names asynchronously 
    * 1.34.9 -static-libs -test -verify-sig
 * net-dns/libidn2: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893) 
    * 2.3.8 nls -static-libs -verify-sig
+Found 2 matches
+### net-firewall: Network firewall software
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
    * 1.8.13 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
+### net-libs: Libraries that are network-related
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
    * 3.8.14 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
@@ -414,8 +442,11 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.26.0 openssl ssl -gnutls -verify-sig
 * net-libs/nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
    * 26.13.1-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
+Found 10 matches
+### net-mail: Various email-related utilities
 * net-mail/mailbase: MTA layout package 
    * 1.8.1 pam
+### net-misc: Various miscellaneous networking tools and utilities
 * net-misc/curl: A Client that groks URLs 
    * 8.23.0-r1 adns alt-svc ftp hsts http2 http3 httpsrr imap openssl pop3 psl quic smtp ssl tftp websockets -brotli -debug -ech -gnutls -gopher -idn -kerberos -ldap -mbedtls -rustls -sasl-scram -ssh -static-libs -telnet -test -verify-sig -zstd
 * net-misc/dhcpcd: A fully featured, yet light weight RFC2131 compliant DHCP client 
@@ -430,10 +461,14 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 3.5.2-r1 acl iconv ssl xattr xxhash -examples -idn -lz4 -rrsync -stunnel -system-zlib -test -verify-sig -zstd
 * net-misc/wget: Network utility to retrieve files from the WWW 
    * 1.25.0-r3 nls pcre psl ssl zlib -debug -gnutls -idn -libproxy -metalink -ntlm -static -test -uuid -verify-sig
+Found 7 matches
+### perl-core: Libraries and utilities relevant to the Perl programming language which correspond to parts of core 
 * perl-core/File-Temp: File::Temp can be used to create and open temporary files in a safe way 
    * 0.231.200 -test
+### sec-keys: Cryptographic key bundles such as OpenPGP keys used by upstream to sign distfiles
 * sec-keys/openpgp-keys-gentoo-release: OpenPGP keys used for Gentoo releases (snapshots, stages) 
    * 20260125 -test
+### sys-apps: Various core system applications, and some non-core system applications which have not yet been moved out into other sys- categories
 * sys-apps/acl: Access control list utilities, libraries, and headers 
    * 2.4.0-r2 nls -static-libs -verify-sig
 * sys-apps/attr: Extended attributes tools 
@@ -492,12 +527,16 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2.42.4 cramfs hardlink logger ncurses nls pam readline su suid unicode -audit -build -caps -cryptsetup -fdformat -kill -magic -python -rtas -selinux -slang -static-libs -systemd -test -tty-helpers -udev -uuidd -verify-sig
 * sys-apps/which: Prints out location of specified executables that are in your path 
    * 2.23 
+Found 29 matches
+### sys-auth: Applications and libraries to support authentication and authorization facilities. Here belongs PAM modules, NSS modules and login apps
 * sys-auth/pam_xdg: PAM module that manages XDG Base Directories 
    * 0.8.5 
 * sys-auth/pambase: PAM base configuration files 
    * 20260730 nullok passwdqc yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -mktemp -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512 -sssd -systemd -turnstile
 * sys-auth/passwdqc: Password strength checking library (and PAM module) 
    * 2.1.0-r1 -audit -verify-sig
+Found 3 matches
+### sys-devel: Various core system development tools and libraries
 * sys-devel/binutils: Tools necessary to build programs 
    * 2.47 cet debuginfod nls plugins zstd -doc -gprofng -hardened -multitarget -pgo -static-libs -test -vanilla -verify-sig -xxhash
 * sys-devel/binutils-config: Utility to change the binutils version being used 
@@ -518,12 +557,17 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 1.4.21 nls -examples -verify-sig
 * sys-devel/patch: Utility to apply diffs to files 
    * 2.8.1 xattr -static -test -verify-sig
+Found 10 matches
+### sys-fs: Filesystem tools and utilities
 * sys-fs/e2fsprogs: Standard EXT2/EXT3/EXT4 filesystem utilities 
    * 1.47.4 nls tools -archive -cron -fuse -static-libs -test -verify-sig
 * sys-fs/udev-init-scripts: udev startup scripts for openrc 
    * 35 
+Found 2 matches
+### sys-kernel: Kernel source ebuilds and kernel-related tools
 * sys-kernel/linux-headers: Linux system headers 
    * 7.1 -headers-only
+### sys-libs: Various system-level libraries
 * sys-libs/gdbm: Standard GNU database libraries 
    * 1.26 berkdb nls readline -static-libs -test -verify-sig
 * sys-libs/glibc: GNU libc C library 
@@ -544,10 +588,14 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 2026f nls -leaps-timezone -verify-sig -zic-slim
 * sys-libs/zlib: Standard (de)compression library 
    * 1.4 -minizip -static-libs -verify-sig
+Found 10 matches
+### sys-process: Packages which query or manipulate processes. The 'cron' daemons are included in this
 * sys-process/procps: Standard informational utilities and process-handling tools 
    * 4.0.6 kill ncurses nls unicode -elogind -modern-top -selinux -skill -static-libs -systemd -test -verify-sig
 * sys-process/psmisc: A set of tools that use the proc filesystem 
    * 23.7 nls -X -apparmor -selinux -test -verify-sig
+Found 2 matches
+### virtual: Packages which satisfy virtual dependencies
 * virtual/acl: Virtual for acl support (sys/acl.h) 
    * 2.4.0 -static-libs
 * virtual/dev-manager: Virtual for the device filesystem manager 
@@ -638,6 +686,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
    * 217-r7 -systemd
 * virtual/zlib: Virtual for libz.so providers 
    * 1.3.1-r1 -static-libs
+Found 45 matches
+### x11-base: Various X11 base implementations
 * x11-base/xorg-proto: X.Org combined protocol headers 
    * 2026.1 -test
-Found 330 matches
