@@ -36,8 +36,6 @@ Found 4 matches
    * 1-r2 bison -byacc -reference
 Found 9 matches
 ### app-arch: Tools for archiving, compressing and uncompressing files or groups of files
-* brotli: Generic-purpose lossless compression algorithm 
-   * 1.2.1 -debug -python -test
 * bzip2: A high-quality data compressor used extensively by Gentoo Linux 
    * 1.0.8-r5 -static -static-libs -verify-sig
 * gzip: Standard GNU compressor 
@@ -52,7 +50,7 @@ Found 9 matches
    * 5.8.4 extra-filters nls -doc -pgo -static-libs -verify-sig
 * zstd: zstd fast compression library 
    * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
-Found 8 matches
+Found 7 matches
 ### app-crypt: Cryptographic (encryption, decryption, steganography and signing) software
 * gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.24-r2 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
@@ -64,9 +62,7 @@ Found 8 matches
    * 1.3.0 -verify-sig
 * pinentry: Simple passphrase entry dialogs which utilize the Assuan protocol 
    * 1.3.3 ncurses -X -caps -efl -emacs -gtk -keyring -qt6 -selinux -verify-sig -wayland
-* rhash: Console utility and library for computing and verifying file hash sums 
-   * 1.4.6-r1 nls ssl -debug -static-libs
-Found 6 matches
+Found 5 matches
 ### app-doc: Various miscellaneous documentation collections
 * info-manual: Manual for the Info reader in GNU Emacs 
    * 31.1 
@@ -82,13 +78,11 @@ Found 6 matches
    * 4-r3 
 * eselect-pinentry: Manage /usr/bin/pinentry symlink 
    * 0.7.5 
-* eselect-python: Eselect module for management of multiple Python versions 
-   * 20200719 
 * eselect-repository: Manage repos.conf via eselect 
    * 15 git -mercurial -test
 * eselect-rust: Eselect module for management of multiple Rust versions 
    * 20210703 
-Found 7 matches
+Found 6 matches
 ### app-i18n: Internationalisation-related packages
 * gnulib-l10n: Localization for gnulib 
    * 20241231 
@@ -161,8 +155,6 @@ Found 8 matches
    * 20261107 
 * b2: A system for large project software construction, simple to use and powerful 
    * 5.6.1 -examples
-* cmake: Cross platform Make 
-   * 4.3.6 ncurses -dap -doc -gui -test -verify-sig
 * gtk-doc-am: Automake files from gtk-doc 
    * 1.36.1 
 * libtool: A shared library tool for developers 
@@ -173,13 +165,7 @@ Found 8 matches
    * 1.12.1 -test -test-full -verify-sig
 * ninja: A small build system similar to make 
    * 1.13.2-r1 -doc -test
-Found 12 matches
-### dev-cpp: Libraries and utilities relevant to the c++ programming language
-* ada: WHATWG-compliant and fast URL parser written in modern C++ 
-   * 4.0.0 
-* simdutf: Unicode validation and transcoding at billions of characters per second 
-   * 9.3.3 -doc -test
-Found 2 matches
+Found 11 matches
 ### dev-db: Libraries and utilities for database related programming
 * sqlite: SQL database engine 
    * 3.54.1 readline -debug -doc -icu -secure-delete -static-libs -tcl -test -test-full -tools
@@ -209,8 +195,6 @@ Found 6 matches
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * json-c: A JSON implementation in C 
    * 0.19-r3 -static-libs -test -threads
-* jsoncpp: C++ JSON reader and writer 
-   * 1.9.8 -doc -test
 * leancrypto: Lean cryptographic library usable for bare-metal environments 
    * 1.8.0 asm -test -tools -verify-sig
 * libassuan: IPC library used by GnuPG and GPGME 
@@ -229,8 +213,6 @@ Found 6 matches
    * 4.21.0 -static-libs -verify-sig
 * libunistring: Library for manipulating Unicode and C strings according to Unicode standard 
    * 1.4.2 -doc -static-libs
-* libuv: Cross-platform asynchronous I/O 
-   * 1.53.0 -verify-sig
 * libxml2: XML C parser and toolkit 
    * 2.15.4 readline -doc -icu -python -static-libs -test
 * libxslt: XSLT libraries and tools 
@@ -253,11 +235,9 @@ Found 6 matches
    * 4.1.0 asm quic -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
 * popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
-* simdjson: SIMD accelerated C++ JSON library 
-   * 5.1.1 all-impls -nan -test -tools
 * xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.4 -static-libs
-Found 29 matches
+Found 26 matches
 ### dev-perl: Libraries and utilities relevant to the Perl programming language
 * Authen-SASL: Perl SASL interface 
    * 2.200.0 -kerberos -test
@@ -440,9 +420,7 @@ Found 2 matches
    * 1.19.0 -verify-sig
 * ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.26.0 openssl ssl -gnutls -verify-sig
-* nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 26.13.1-r1 icu inspector npm snapshot ssl system-ssl -debug -doc -lto -pax-kernel -system-icu -temporal -test
-Found 10 matches
+Found 9 matches
 ### net-mail: Various email-related utilities
 * mailbase: MTA layout package 
    * 1.8.1 pam
