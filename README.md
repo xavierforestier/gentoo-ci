@@ -5,49 +5,27 @@
 Based on https://github.com/antonfischl1980/icinga thanks
 
 ## Provided packages
-* acct-group/audio: System group: audio 
    * 0-r3 
-* acct-group/cdrom: System group: cdrom 
    * 0-r3 
-* acct-group/dialout: System group: dialout 
    * 0-r3 
-* acct-group/disk: System group: disk 
    * 0-r3 
-* acct-group/floppy: System group: floppy 
    * 0-r1 
-* acct-group/input: System group: input 
    * 0-r3 
-* acct-group/jobserver: Access to system-wide jobservers 
    * 0 
-* acct-group/kmem: System group: kmem 
    * 0-r3 
-* acct-group/kvm: System group: kvm 
    * 0-r3 
-* acct-group/lp: System group: lp 
    * 0-r3 
-* acct-group/mail: Mail program group 
    * 0-r3 
-* acct-group/nullmail: A group for the nullmailer 
    * 0-r2 
-* acct-group/portage: System group: portage 
    * 0-r2 
-* acct-group/render: System group: render 
    * 0-r3 
-* acct-group/root: System group: root 
    * 0-r2 
-* acct-group/sgx: System group: used for SGX enclaves 
    * 0-r2 
-* acct-group/shadow: System group: shadow 
    * 0 
-* acct-group/sshd: System group: sshd 
    * 0-r3 
-* acct-group/tape: System group: tape 
    * 0-r3 
-* acct-group/tty: System group: tty 
    * 0-r3 
-* acct-group/usb: System group: usb 
    * 0-r3 
-* acct-group/video: System group: video 
    * 0-r3 
    * 0-r3 
    * 0-r2 
@@ -377,7 +355,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * dev-python/pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * dev-python/platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.14.5 -test -verify-provenance
+   * 4.14.7 -test -verify-provenance
 * dev-python/pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * dev-python/pysocks: SOCKS client module 
@@ -417,7 +395,7 @@ Based on https://github.com/antonfischl1980/icinga thanks
 * net-firewall/iptables: Linux kernel (2.4+) firewall, NAT and packet mangling tools 
    * 1.8.13 -conntrack -netlink -nftables -pcap -static-libs -test -verify-sig
 * net-libs/gnutls: Secure communications library implementing the SSL, TLS and DTLS protocols 
-   * 3.8.13 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
+   * 3.8.14 cxx idn nls openssl post-quantum tls-heartbeat zlib -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -systemtap -test -test-full -tools -verify-sig -zstd
 * net-libs/libmicrohttpd: Small C library to run an HTTP server as part of another application 
    * 1.0.5 epoll eventfd ssl thread-names -debug -static-libs -test -verify-sig
 * net-libs/libmnl: Minimalistic netlink library 
