@@ -28,9 +28,12 @@ jobs:
         head .header -n `grep '## Provided packages' .header -n | cut -d: -f1` > README.md
         rm .header
         # Get category 
+        echo "get category"
         for category in $(EIX_LIMIT=0 eix -I --format '<category>\n' | grep -e '^[^\[].*' | grep -v 'Found' | sort -u | grep -v 'acct-group' | grep -v 'acct-user' ); do
+          echo -n $category
           description=$( cat "/var/db/repos/gentoo/${category}/metadata.xml" | xq '.catmetadata.longdescription[] | select( ."@lang" == "en" )."#text"' | sed 's/\\n/ /g' | sed 's/\\t/ /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/  / /g' | sed 's/"The .* category contains //g' | sed 's/\."$//g' )
           echo "### ${category}: ${description^}" >> README.md
+          echo " get version"
           EIX_LIMIT=0 NAMEVERSION="\\n   * <version> <use0>" eix -I ${category} --format '* <category>/<name>: <description> <installedversions:NAMEVERSION>\n' >> README.md
         done        
         git config --local user.name "xavier.forestier"
