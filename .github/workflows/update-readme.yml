@@ -22,7 +22,7 @@ jobs:
         git config --global --add safe.directory /__w/gentoo-ci/gentoo-ci
         git fetch
         git switch main
-        emerge -q eix
+        emerge -q app-portage/eix app-misc/jq
         eix-update
         cp README.md .header
         head .header -n `grep '## Provided packages' .header -n | cut -d: -f1` > README.md
