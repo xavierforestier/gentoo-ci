@@ -57,7 +57,7 @@ Found 8 matches
 * gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
    * 2.5.24-r2 alternatives bzip2 nls readline smartcard ssl tofu -doc -ldap -selinux -test -tools -tpm -usb -user-socket -verify-sig -wks-server
 * gpgme: GnuPG Made Easy is a library for making GnuPG easier to use 
-   * 2.2.0 -common-lisp -static-libs -test -verify-sig
+   * 2.3.1 -common-lisp -static-libs -test -verify-sig
 * libb2: C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp 
    * 0.98.1-r3 openmp -native-cflags -static-libs
 * libmd: Message Digest functions from BSD systems 
@@ -222,7 +222,7 @@ Found 6 matches
 * libgpg-error: Contains error handling functions used by GnuPG software 
    * 1.61 nls -common-lisp -static-libs -test -verify-sig
 * libksba: X.509 and CMS (PKCS#7) library 
-   * 1.8.1 -static-libs -verify-sig
+   * 1.9.1 -static-libs -verify-sig
 * libpcre2: Perl-compatible regular expression library 
    * 10.49 bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig
 * libtasn1: ASN.1 library 
