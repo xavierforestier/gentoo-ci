@@ -194,7 +194,7 @@ Found 2 matches
 * python-exec-conf: Configuration file for dev-lang/python-exec 
    * 2.4.6 
 * rust-bin: Systems programming language from Mozilla 
-   * 1.99.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
+   * 1.100.0 clippy rustfmt -big-endian -doc -prefix -rust-analyzer -rust-src -rustc-dev -verify-sig
 Found 6 matches
 ### dev-libs: Various miscellaneous programming libraries
 * boost: Boost Libraries for C++ 
@@ -370,13 +370,13 @@ Found 32 matches
 * pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * platformdirs: A small Python module for determining appropriate platform-specific dirs 
-   * 4.14.7 -test -verify-provenance
+   * 4.14.8 -test -verify-provenance
 * pluggy: Plugin and hook calling mechanisms for Python 
    * 1.7.0 -test -verify-provenance
 * pysocks: SOCKS client module 
    * 1.7.1-r2 
 * pyyaml: YAML parser and emitter for Python 
-   * 6.0.3 -debug -examples -test
+   * 6.0.4 -debug -examples -test
 * requests: HTTP library for human beings 
    * 2.34.2 test-rust -socks5 -test -verify-provenance
 * setuptools: Collection of extensions to Distutils 
