@@ -51,7 +51,7 @@ Found 9 matches
 * xz-utils: Utils for managing LZMA compressed files 
    * 5.8.4 extra-filters nls -doc -pgo -static-libs -verify-sig
 * zstd: zstd fast compression library 
-   * 1.5.7-r1 lzma zlib -lz4 -static-libs -test -verify-sig
+   * 1.6.0 lzma zlib -lz4 -static-libs -test -verify-sig
 Found 8 matches
 ### app-crypt: Cryptographic (encryption, decryption, steganography and signing) software
 * gnupg: The GNU Privacy Guard, a GPL OpenPGP implementation 
@@ -202,7 +202,7 @@ Found 6 matches
 * elfutils: Libraries/utilities to handle ELF objects (drop in replacement for libelf) 
    * 0.197 bzip2 debuginfod libarchive lzma nls utils -libpfm -stackprof -static-libs -test -threads -valgrind -verify-sig -zstd
 * expat: Stream-oriented XML parser library 
-   * 2.10.0 unicode -examples -static-libs -test
+   * 2.11.0 unicode -examples -static-libs -test
 * gmp: Library for arbitrary-precision arithmetic on different type of numbers 
    * 6.3.0-r2 asm cpudetection cxx -doc -pic -static-libs -verify-sig
 * icu: International Components for Unicode 
@@ -326,11 +326,11 @@ Found 30 matches
 Found 32 matches
 ### dev-python: Packages whose primary purpose is to provide Python modules, extensions and bindings, as well as tools and utilities useful for development in the Python programming language
 * argcomplete: Bash tab completion for argparse 
-   * 3.7.2 -test -verify-provenance
+   * 3.8.0 -test -verify-provenance
 * certifi: A certifi hack to use system trust store on Linux/FreeBSD 
    * 3024.7.22 -test
 * charset-normalizer: The Real First Universal Charset Detector 
-   * 3.5.2 -debug -native-extensions -test -verify-provenance
+   * 3.5.3 -debug -native-extensions -test -verify-provenance
 * cython: A Python to C compiler 
    * 3.3.1 -debug -test -test-full
 * editables: A Python library for creating 'editable wheels' 
@@ -441,7 +441,7 @@ Found 2 matches
 * ngtcp2: Implementation of the IETF QUIC Protocol 
    * 1.26.0 openssl ssl -gnutls -verify-sig
 * nodejs: A JavaScript runtime built on Chrome's V8 JavaScript engine 
-   * 24.22.3-r1 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
+   * 24.22.3-r2 icu inspector npm snapshot ssl system-icu system-ssl -corepack -debug -doc -lto -pax-kernel -test
 Found 10 matches
 ### net-mail: Various email-related utilities
 * mailbase: MTA layout package 
@@ -516,7 +516,7 @@ Found 7 matches
 * sed: Super-useful stream editor 
    * 4.10-r1 acl nls xattr -selinux -static -test-full -verify-sig
 * shadow: Utilities to deal with user accounts 
-   * 4.20.2 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
+   * 4.20.4 acl nls pam -audit -selinux -skey -split-usr -su -systemd -test -verify-sig
 * systemd-utils: Utilities split out from systemd for OpenRC users 
    * 262 acl kmod sysctl tmpfiles udev -boot -kernel-install -secureboot -selinux -split-usr -sysusers -test -ukify
 * sysvinit: /sbin/init - parent of all processes 
