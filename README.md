@@ -254,7 +254,7 @@ Found 6 matches
 * popt: Parse Options - Command line parser 
    * 1.19-r1 nls -static-libs
 * simdjson: SIMD accelerated C++ JSON library 
-   * 5.1.1 all-impls -nan -test -tools
+   * 5.3.0 all-impls -nan -test -tools -trailing-commas
 * xxhash: Extremely fast non-cryptographic hash algorithm 
    * 0.8.4 -static-libs
 Found 30 matches
@@ -366,7 +366,7 @@ Found 32 matches
 * more-itertools: More routines for operating on iterables, beyond itertools 
    * 11.2.1 -doc
 * packaging: Core utilities for Python packages 
-   * 26.3 -test -verify-provenance
+   * 26.4 -test -verify-provenance
 * pathspec: Utility library for gitignore style pattern matching of file paths 
    * 1.1.1 -verify-provenance
 * platformdirs: A small Python module for determining appropriate platform-specific dirs 
