@@ -384,7 +384,7 @@ Found 32 matches
 * setuptools-scm: Manage versions by scm tags via setuptools 
    * 10.3.4 -test -verify-provenance
 * tomlkit: Style preserving TOML library 
-   * 0.15.2 -test
+   * 0.15.3 -test
 * trove-classifiers: Canonical source for classifiers on PyPI (pypi.org) 
    * 2026.9.21.13 -test -verify-provenance
 * urllib3: HTTP library with thread-safe connection pooling, file post, and more 
