@@ -332,7 +332,7 @@ Found 32 matches
 * charset-normalizer: The Real First Universal Charset Detector 
    * 3.5.3 -debug -native-extensions -test -verify-provenance
 * cython: A Python to C compiler 
-   * 3.3.1 -debug -test -test-full
+   * 3.3.2 -debug -test -test-full
 * editables: A Python library for creating 'editable wheels' 
    * 0.6 -test
 * ensurepip-pip: Shared pip wheel for ensurepip Python module 
